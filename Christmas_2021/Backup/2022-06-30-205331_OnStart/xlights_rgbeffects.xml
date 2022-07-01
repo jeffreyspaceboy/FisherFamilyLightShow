@@ -142,12 +142,12 @@
     <Display2DBoundingBox value="1"/>
     <backgroundAlpha value="100"/>
     <storedLayoutGroup value="All Models"/>
+    <backgroundImage value="/Users/jeffreyfisher/Documents/xLights/Christmas2021/avocado2.png"/>
     <scaleImage value="1"/>
     <Display2DGrid value="0"/>
     <backgroundBrightness value="23"/>
     <previewWidth value="4032"/>
     <previewHeight value="3024"/>
-    <backgroundImage value="C:\Users\jeffrey\Documents\xLights\FisherFamilyLightShow\Christmas_2021\avocado2.png"/>
   </settings>
   <colors>
     <DisabledEffect Red="200" Green="200" Blue="0"/>

@@ -21,6 +21,16 @@
   <keybinding keycode="SPACE" alt="FALSE" control="FALSE" shift="FALSE" type="TOGGLE_PLAY"/>
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="STOP"/>
   <keybinding keycode="PAUSE" alt="FALSE" control="FALSE" shift="FALSE" type="PAUSE"/>
+  <keybinding keycode="" alt="TRUE" control="TRUE" shift="FALSE" type="AUDIO_FULL_SPEED"/>
+  <keybinding keycode="" alt="TRUE" control="TRUE" shift="FALSE" type="AUDIO_F_1_5_SPEED"/>
+  <keybinding keycode="" alt="TRUE" control="TRUE" shift="FALSE" type="AUDIO_F_2_SPEED"/>
+  <keybinding keycode="" alt="TRUE" control="TRUE" shift="FALSE" type="AUDIO_F_3_SPEED"/>
+  <keybinding keycode="" alt="TRUE" control="TRUE" shift="FALSE" type="AUDIO_F_4_SPEED"/>
+  <keybinding keycode="" alt="TRUE" control="TRUE" shift="FALSE" type="AUDIO_S_3_4_SPEED"/>
+  <keybinding keycode="" alt="TRUE" control="TRUE" shift="FALSE" type="AUDIO_S_1_2_SPEED"/>
+  <keybinding keycode="" alt="TRUE" control="TRUE" shift="FALSE" type="AUDIO_S_1_4_SPEED"/>
+  <keybinding keycode="" alt="TRUE" control="TRUE" shift="FALSE" type="PRIOR_TAG"/>
+  <keybinding keycode="" alt="TRUE" control="TRUE" shift="FALSE" type="NEXT_TAG"/>
   <keybinding keycode="s" alt="FALSE" control="TRUE" shift="FALSE" type="SAVE_CURRENT_TAB"/>
   <keybinding keycode="" alt="FALSE" control="TRUE" shift="FALSE" type="SAVE_SEQUENCE"/>
   <keybinding keycode="" alt="FALSE" control="TRUE" shift="TRUE" type="SAVEAS_SEQUENCE"/>
@@ -43,6 +53,8 @@
   <keybinding keycode="u" alt="FALSE" control="TRUE" shift="FALSE" type="UNLOCK_EFFECT"/>
   <keybinding keycode="." alt="FALSE" control="TRUE" shift="FALSE" type="MARK_SPOT"/>
   <keybinding keycode="/" alt="FALSE" control="TRUE" shift="FALSE" type="RETURN_TO_SPOT"/>
+  <keybinding keycode="." alt="FALSE" control="FALSE" rawControl="TRUE" shift="FALSE" type="MARK_SPOT"/>
+  <keybinding keycode="/" alt="FALSE" control="FALSE" rawControl="TRUE" shift="FALSE" type="RETURN_TO_SPOT"/>
   <keybinding keycode="" alt="FALSE" control="TRUE" shift="FALSE" type="EFFECT_DESCRIPTION"/>
   <keybinding keycode="" alt="TRUE" control="TRUE" shift="FALSE" type="EFFECT_ALIGN_START"/>
   <keybinding keycode="" alt="TRUE" control="TRUE" shift="FALSE" type="EFFECT_ALIGN_END"/>
@@ -65,6 +77,8 @@
   <keybinding keycode="u" alt="FALSE" control="TRUE" shift="FALSE" type="UNLOCK_MODEL"/>
   <keybinding keycode="g" alt="FALSE" control="TRUE" shift="FALSE" type="GROUP_MODELS"/>
   <keybinding keycode="" alt="FALSE" control="TRUE" shift="FALSE" type="WIRING_VIEW"/>
+  <keybinding keycode="" alt="FALSE" control="TRUE" shift="FALSE" type="EXPORT_MODEL_CAD"/>
+  <keybinding keycode="" alt="FALSE" control="TRUE" shift="FALSE" type="EXPORT_LAYOUT_DXF"/>
   <keybinding keycode="" alt="FALSE" control="TRUE" shift="FALSE" type="NODE_LAYOUT"/>
   <keybinding keycode="" alt="FALSE" control="TRUE" shift="TRUE" type="SAVE_LAYOUT"/>
   <keybinding keycode="" alt="FALSE" control="TRUE" shift="TRUE" type="MODEL_ALIGN_TOP"/>
@@ -75,44 +89,30 @@
   <keybinding keycode="" alt="FALSE" control="TRUE" shift="TRUE" type="MODEL_ALIGN_CENTER_HORIZ"/>
   <keybinding keycode="" alt="FALSE" control="TRUE" shift="TRUE" type="MODEL_DISTRIBUTE_HORIZ"/>
   <keybinding keycode="" alt="FALSE" control="TRUE" shift="TRUE" type="MODEL_DISTRIBUTE_VERT"/>
-  <keybinding keycode="o" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="On" xLightsVersion="2020.48.1">E_TEXTCTRL_Eff_On_End=100,E_TEXTCTRL_Eff_On_Start=100</keybinding>
-  <keybinding keycode="u" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="On" xLightsVersion="2020.48.1">E_TEXTCTRL_Eff_On_End=100,E_TEXTCTRL_Eff_On_Start=0</keybinding>
-  <keybinding keycode="d" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="On" xLightsVersion="2020.48.1">E_TEXTCTRL_Eff_On_End=0,E_TEXTCTRL_Eff_On_Start=100</keybinding>
-  <keybinding keycode="m" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Morph" xLightsVersion="2020.48.1"></keybinding>
-  <keybinding keycode="c" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Curtain" xLightsVersion="2020.48.1"></keybinding>
-  <keybinding keycode="i" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Circles" xLightsVersion="2020.48.1"></keybinding>
-  <keybinding keycode="b" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Bars" xLightsVersion="2020.48.1"></keybinding>
-  <keybinding keycode="y" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Butterfly" xLightsVersion="2020.48.1"></keybinding>
-  <keybinding keycode="f" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Fire" xLightsVersion="2020.48.1"></keybinding>
-  <keybinding keycode="g" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Garlands" xLightsVersion="2020.48.1"></keybinding>
-  <keybinding keycode="p" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Pinwheel" xLightsVersion="2020.48.1"></keybinding>
-  <keybinding keycode="r" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Ripple" xLightsVersion="2020.48.1"></keybinding>
-  <keybinding keycode="x" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Text" xLightsVersion="2020.48.1"></keybinding>
-  <keybinding keycode="S" alt="FALSE" control="FALSE" shift="TRUE" type="EFFECT" effect="Spirals" xLightsVersion="2020.48.1"></keybinding>
-  <keybinding keycode="w" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Color Wash" xLightsVersion="2020.48.1"></keybinding>
-  <keybinding keycode="n" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Snowflakes" xLightsVersion="2020.48.1"></keybinding>
-  <keybinding keycode="O" alt="FALSE" control="FALSE" shift="TRUE" type="EFFECT" effect="Off" xLightsVersion="2020.48.1"></keybinding>
-  <keybinding keycode="F" alt="FALSE" control="FALSE" shift="TRUE" type="EFFECT" effect="Fan" xLightsVersion="2020.48.1"></keybinding>
-  <keybinding keycode="U" alt="FALSE" control="FALSE" shift="TRUE" type="APPLYSETTING" xLightsVersion="2020.48.1">T_TEXTCTRL_Fadein=1.00</keybinding>
-  <keybinding keycode="D" alt="FALSE" control="FALSE" shift="TRUE" type="APPLYSETTING" xLightsVersion="2020.48.1">T_TEXTCTRL_Fadeout=1.00</keybinding>
-  <keybinding keycode="." alt="FALSE" control="FALSE" rawControl="TRUE" shift="FALSE" type="MARK_SPOT"/>
-  <keybinding keycode="/" alt="FALSE" control="FALSE" rawControl="TRUE" shift="FALSE" type="RETURN_TO_SPOT"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="EXPORT_MODEL_CAD"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="EXPORT_LAYOUT_DXF"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="AUDIO_FULL_SPEED"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="AUDIO_F_1_5_SPEED"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="AUDIO_F_2_SPEED"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="AUDIO_F_3_SPEED"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="AUDIO_F_4_SPEED"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="AUDIO_S_3_4_SPEED"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="AUDIO_S_1_2_SPEED"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="AUDIO_S_1_4_SPEED"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="PRIOR_TAG"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="NEXT_TAG"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_FLIP_HORIZ"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_FLIP_VERT"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_SUBMODELS"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_FACES"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_STATES"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_MODELDATA"/>
+  <keybinding keycode="" alt="FALSE" control="TRUE" shift="TRUE" type="MODEL_FLIP_HORIZ"/>
+  <keybinding keycode="" alt="FALSE" control="TRUE" shift="TRUE" type="MODEL_FLIP_VERT"/>
+  <keybinding keycode="" alt="FALSE" control="TRUE" shift="FALSE" type="MODEL_SUBMODELS"/>
+  <keybinding keycode="" alt="FALSE" control="TRUE" shift="FALSE" type="MODEL_FACES"/>
+  <keybinding keycode="" alt="FALSE" control="TRUE" shift="FALSE" type="MODEL_STATES"/>
+  <keybinding keycode="" alt="FALSE" control="TRUE" shift="FALSE" type="MODEL_MODELDATA"/>
+  <keybinding keycode="o" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="On" xLightsVersion="2022.13">E_TEXTCTRL_Eff_On_End=100,E_TEXTCTRL_Eff_On_Start=100</keybinding>
+  <keybinding keycode="u" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="On" xLightsVersion="2022.13">E_TEXTCTRL_Eff_On_End=100,E_TEXTCTRL_Eff_On_Start=0</keybinding>
+  <keybinding keycode="d" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="On" xLightsVersion="2022.13">E_TEXTCTRL_Eff_On_End=0,E_TEXTCTRL_Eff_On_Start=100</keybinding>
+  <keybinding keycode="m" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Morph" xLightsVersion="2022.13"></keybinding>
+  <keybinding keycode="c" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Curtain" xLightsVersion="2022.13"></keybinding>
+  <keybinding keycode="i" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Circles" xLightsVersion="2022.13"></keybinding>
+  <keybinding keycode="b" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Bars" xLightsVersion="2022.13"></keybinding>
+  <keybinding keycode="y" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Butterfly" xLightsVersion="2022.13"></keybinding>
+  <keybinding keycode="f" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Fire" xLightsVersion="2022.13"></keybinding>
+  <keybinding keycode="g" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Garlands" xLightsVersion="2022.13"></keybinding>
+  <keybinding keycode="p" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Pinwheel" xLightsVersion="2022.13"></keybinding>
+  <keybinding keycode="r" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Ripple" xLightsVersion="2022.13"></keybinding>
+  <keybinding keycode="x" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Text" xLightsVersion="2022.13"></keybinding>
+  <keybinding keycode="S" alt="FALSE" control="FALSE" shift="TRUE" type="EFFECT" effect="Spirals" xLightsVersion="2022.13"></keybinding>
+  <keybinding keycode="w" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Color Wash" xLightsVersion="2022.13"></keybinding>
+  <keybinding keycode="n" alt="FALSE" control="FALSE" shift="FALSE" type="EFFECT" effect="Snowflakes" xLightsVersion="2022.13"></keybinding>
+  <keybinding keycode="O" alt="FALSE" control="FALSE" shift="TRUE" type="EFFECT" effect="Off" xLightsVersion="2022.13"></keybinding>
+  <keybinding keycode="F" alt="FALSE" control="FALSE" shift="TRUE" type="EFFECT" effect="Fan" xLightsVersion="2022.13"></keybinding>
+  <keybinding keycode="U" alt="FALSE" control="FALSE" shift="TRUE" type="APPLYSETTING" xLightsVersion="2022.13">T_TEXTCTRL_Fadein=1.00</keybinding>
+  <keybinding keycode="D" alt="FALSE" control="FALSE" shift="TRUE" type="APPLYSETTING" xLightsVersion="2022.13">T_TEXTCTRL_Fadeout=1.00</keybinding>
 </keybindings>
