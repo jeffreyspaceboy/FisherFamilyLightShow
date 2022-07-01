@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2021.37</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHOICE_Butterfly_Colors=Rainbow,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=10,E_SLIDER_Butterfly_Style=1</Effect>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=-40,E_SLIDER_PinwheelYC=20,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=3,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=2,E_SLIDER_Pinwheel_Thickness=100,E_SLIDER_Pinwheel_Twist=0</Effect>
+    <Effect>E_CHOICE_Garlands_Direction=Up,E_SLIDER_Garlands_Spacing=10,E_SLIDER_Garlands_Type=0,E_TEXTCTRL_Garlands_Cycles=1.0</Effect>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=3,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=2,E_SLIDER_Pinwheel_Thickness=100,E_SLIDER_Pinwheel_Twist=0</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="405" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="1"/>
+    <Element collapsed="0" type="model" name="Column_Low" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Left" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Right" visible="1"/>
+    <Element collapsed="0" type="model" name="WalkWay" visible="1"/>
+    <Element collapsed="0" type="model" name="Columns" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof" visible="1"/>
+    <Element collapsed="0" type="model" name="Garages" visible="1"/>
+    <Element collapsed="0" type="model" name="Vertical" visible="1"/>
+    <Element collapsed="0" type="model" name="Horizontal" visible="1"/>
+    <Element collapsed="0" type="model" name="Pixels" visible="1"/>
+    <Element collapsed="0" type="model" name="Singing_Tree" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees_Big" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees_Medium" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees_Small" visible="1"/>
+    <Element collapsed="0" type="model" name="AC_Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree_Big_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree_Big_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Santa" visible="1"/>
+    <Element collapsed="0" type="model" name="WalkWay_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Right_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Left_T" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_Low_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low_4" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low_3" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree_Singer" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_Low_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_Low_3" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_Low_4" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Left_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Left_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Right_T" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Right_R" visible="1"/>
+    <Element collapsed="0" type="model" name="WalkWay_T" visible="1"/>
+    <Element collapsed="0" type="model" name="WalkWay_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree_Medium_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree_Medium_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree_Small_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree_Small_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree_Small_3" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_Low">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Left">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Right">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WalkWay">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Columns">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garages">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Vertical">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Horizontal">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pixels">
+      <EffectLayer>
+        <Effect ref="0" name="Butterfly" startTime="0" endTime="10000" palette="0"/>
+        <Effect ref="1" name="Pinwheel" id="1" startTime="10000" endTime="20050" palette="1"/>
+        <Effect ref="2" name="Garlands" id="2" startTime="20050" endTime="30000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Singing_Tree">
+      <EffectLayer>
+        <Effect ref="0" name="Butterfly" startTime="0" endTime="10000" palette="0"/>
+        <Effect ref="3" name="Pinwheel" id="1" startTime="10000" endTime="20050" palette="1"/>
+        <Effect ref="2" name="Garlands" id="2" startTime="20050" endTime="30000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Trees">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees_Big">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees_Medium">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees_Small">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC_Lights">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Matrix">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree_Big_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree_Big_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Santa">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WalkWay_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Right_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Left_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_Low_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low_4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low_3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree_Singer">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_Low_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_Low_3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_Low_4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Left_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Left_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Right_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Right_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WalkWay_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WalkWay_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree_Medium_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree_Medium_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree_Small_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree_Small_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree_Small_3">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

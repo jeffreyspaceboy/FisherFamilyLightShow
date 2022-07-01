@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2020.54</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>/Users/jeffreyfisher/Documents/xLights/Christmas2020/2020_SantaIsComing.mp3</mediaFile>
+    <sequenceDuration>89.443</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <ColorPalettes/>
+  <EffectDB/>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="1"/>
+    <Element collapsed="0" type="model" name="DC_Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="AC_Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence" visible="1"/>
+    <Element collapsed="0" type="model" name="Windows" visible="0"/>
+    <Element collapsed="0" type="model" name="Roof" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes" visible="0"/>
+    <Element collapsed="0" type="model" name="Window_Circle" visible="0"/>
+    <Element collapsed="0" type="model" name="Window_Garage" visible="0"/>
+    <Element collapsed="0" type="model" name="Window_Porch" visible="0"/>
+    <Element collapsed="0" type="model" name="Window_Jeffrey" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree_1" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree_2" visible="0"/>
+    <Element collapsed="0" type="model" name="Bush_1" visible="0"/>
+    <Element collapsed="0" type="model" name="Bush_2" visible="0"/>
+    <Element collapsed="0" type="model" name="Bush_3" visible="0"/>
+    <Element collapsed="0" type="model" name="Bush_4" visible="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="DC_Lights">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC_Lights">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Matrix">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Windows">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Circle">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Garage">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Porch">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Jeffrey">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush_3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush_4">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

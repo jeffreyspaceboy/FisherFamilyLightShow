@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xrgb>
+  <models>
+    <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" LayoutGroup="Default" name="Santa" AlternateNodes="false" parm2="150" parm3="1" CustomColor="#ffffff" StringType="Single Color Custom" WorldPosX="-204.0321" WorldPosY="148.5065" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="13" PointData="0.000000,0.000000,0.000000,10.348801,17.463593,0.000000,21.991241,-0.000046,0.000000,9.702011,18.110397,0.000000,9.055206,34.280457,0.000000,-9.055237,25.872025,0.000000,9.702011,35.574066,0.000000,29.752869,27.165619,0.000000,8.408401,34.927261,0.000000,-0.646820,42.688889,0.000000,7.761597,49.803680,0.000000,15.523224,43.982468,0.000000,7.761597,34.280457,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Bush-4:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="300" name="Fence" StringType="Single Color White" WorldPosX="231.7107" WorldPosY="198.4905" WorldPosZ="84.8651" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="10" PointData="2.301895,-6.664035,175.479630,52.245506,-6.706164,175.916519,92.200508,-6.716697,189.183975,116.383698,-6.737762,188.886505,133.732529,-6.674567,175.010483,143.721313,-6.495516,157.289642,269.688110,-6.378454,132.594284,285.488708,-6.275699,77.485580,303.957184,-6.164492,5.777405,333.877563,-6.162573,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Tree-2:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="Roof-Porch" WorldPosX="18.1320" WorldPosY="231.8727" WorldPosZ="51.9052" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="3" PointData="9.025146,10.408661,-51.041794,7.761631,10.348862,0.000000,85.377838,9.702103,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Roof-Upstairs:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Roof-LivingRoom" parm2="150" WorldPosX="180.3023" WorldPosY="262.0210" WorldPosZ="84.4603" X2="179.164124" Y2="-1.940399" Z2="0.000000" versionNumber="5" StartChannel="&gt;Roof-Garage:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Roof-Garage" parm2="150" WorldPosX="-345.5907" WorldPosY="225.6562" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="3" PointData="196.251007,-0.594864,-198.421844,195.334167,-0.000015,0.000000,243.844299,24.578461,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Column-Office:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" name="Window-Jeffrey" parm2="20" WorldPosX="37.0670" WorldPosY="283.6264" WorldPosZ="0.0000" ScaleX="2.3790" ScaleY="1.9721" ScaleZ="2.3790" RotateX="0.00000000" RotateY="0.00000000" RotateZ="-1.00000000" versionNumber="5" StartChannel="&gt;Window-Garage:1">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" name="Window-Garage" parm2="20" WorldPosX="-33.2362" WorldPosY="203.6532" WorldPosZ="0.0000" ScaleX="1.9151" ScaleY="2.3368" ScaleZ="1.9151" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="16" parm3="16" Rotation="CW" LayoutGroup="Default" name="Window-Porch" parm2="20" WorldPosX="69.8357" WorldPosY="218.4487" WorldPosZ="51.8456" ScaleX="2.0183" ScaleY="1.7998" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="&gt;Window-Jeffrey:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Window-Circle" parm2="30" WorldPosX="133.8152" WorldPosY="221.6679" WorldPosZ="22.5658" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="5" PointData="0.000000,0.000000,0.000000,-11.642426,12.289200,0.000000,1.293594,25.225204,0.000000,13.582825,10.995590,0.000000,0.646820,-0.000031,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Window-Porch:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="Column-1" WorldPosX="-135.9012" WorldPosY="160.2217" WorldPosZ="0.0000" X2="-0.646805" Y2="71.148193" Z2="0.000000" versionNumber="5" StartChannel="&gt;Window-Circle:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="Column-2" WorldPosX="38.7353" WorldPosY="163.4557" WorldPosZ="55.5166" X2="0.646816" Y2="76.322617" Z2="0.000000" versionNumber="5" StartChannel="&gt;Column-1:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="Column-3" WorldPosX="183.5329" WorldPosY="163.4557" WorldPosZ="82.1140" X2="1.940399" Y2="97.667053" Z2="0.000000" versionNumber="5" StartChannel="&gt;Column-2:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="Column-Office" WorldPosX="-109.0779" WorldPosY="252.0675" WorldPosZ="0.0000" X2="0.000000" Y2="59.505768" Z2="0.000000" versionNumber="5" StartChannel="&gt;Column-3:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="100" name="Roof-Upstairs" WorldPosX="-122.8708" WorldPosY="311.4294" WorldPosZ="0.0000" X2="237.376282" Y2="-3.880798" Z2="0.000000" versionNumber="5" StartChannel="&gt;Roof-LivingRoom:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="100" name="Tree-1" StringType="Single Color White" WorldPosX="-336.2891" WorldPosY="125.0247" WorldPosZ="17.3330" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="40" PointData="0.000000,0.000000,0.000000,4.527618,2.587257,0.000000,0.000000,4.527657,0.000000,3.880829,7.114876,0.000000,-1.293610,9.702080,0.000000,4.527618,12.289284,0.000000,-0.646790,16.170097,0.000000,4.527618,17.463707,0.000000,0.646820,19.404106,0.000000,3.880829,20.697716,0.000000,1.940399,22.638115,0.000000,3.880829,23.931725,0.000000,0.000000,25.872124,0.000000,4.527618,29.106148,0.000000,0.000000,31.046547,0.000000,4.527618,33.633751,0.000000,1.293610,35.574165,0.000000,4.527618,36.220955,0.000000,1.293610,37.514565,0.000000,5.821198,40.101768,0.000000,0.000000,42.042168,0.000000,7.761627,45.276176,0.000000,-3.880829,46.569786,0.000000,10.348846,49.803795,0.000000,-17.463654,51.097404,0.000000,20.697662,56.918617,0.000000,-32.340088,55.625008,0.000000,30.399689,62.739830,0.000000,-45.276093,60.799416,0.000000,35.574127,69.207848,0.000000,-51.097321,65.973839,0.000000,35.574127,75.029060,0.000000,-55.624939,73.088676,0.000000,32.340118,80.850273,0.000000,-53.684540,80.850273,0.000000,31.693298,88.611900,0.000000,-42.688934,89.258705,0.000000,22.638092,92.492729,0.000000,-16.816864,94.433113,0.000000,4.527618,94.433113,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Roof-Porch:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="1" LayoutGroup="Default" name="Tree-2" StringType="Single Color White" WorldPosX="258.7655" WorldPosY="137.1701" WorldPosZ="17.2729" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="42" PointData="0.000000,0.000000,0.000000,3.880829,-0.000031,0.000000,1.293610,3.233948,0.000000,7.114807,3.233948,0.000000,1.940430,6.467957,0.000000,7.761627,5.174377,0.000000,2.587189,10.348785,0.000000,10.995605,10.995575,0.000000,6.467987,12.935989,0.000000,12.936035,13.582794,0.000000,9.055206,15.523209,0.000000,14.229645,16.816803,0.000000,10.995605,18.757217,0.000000,14.229645,18.757217,0.000000,10.348846,20.697617,0.000000,15.523254,21.344421,0.000000,9.702026,24.578430,0.000000,15.523254,25.225220,0.000000,8.408447,27.812439,0.000000,18.110474,27.165634,0.000000,5.174408,33.633652,0.000000,23.931671,31.693237,0.000000,4.527588,36.220856,0.000000,25.225281,36.867661,0.000000,1.293610,42.688873,0.000000,29.752899,41.395264,0.000000,-5.174423,45.922882,0.000000,34.927277,45.922882,0.000000,-7.761597,52.390900,0.000000,46.569763,47.863281,0.000000,-10.348816,55.624924,0.000000,51.097351,52.390900,0.000000,-10.995636,60.152527,0.000000,58.212158,58.212112,0.000000,-12.289230,65.973740,0.000000,60.799377,63.386551,0.000000,-7.761597,70.501343,0.000000,54.978149,69.854568,0.000000,3.234009,75.028976,0.000000,44.629333,75.028976,0.000000,31.046478,76.969360,0.000000,20.697632,77.616165,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Tree-1:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="150" name="Bush-1" CustomColor="#ffffff" StringType="Single Color Custom" WorldPosX="-601.2513" WorldPosY="101.7217" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="11" PointData="0.000000,0.000000,0.000000,-0.646790,-53.037773,0.000000,318.873322,-58.212212,0.000000,316.932922,-9.702057,0.000000,0.000000,-1.940445,0.000000,62.739807,9.701988,0.000000,338.277374,5.821190,0.000000,338.924194,-39.454948,0.000000,320.166901,-56.271812,0.000000,317.579681,-7.761658,0.000000,338.277374,4.527580,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Fence:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="100" name="Bush-2" CustomColor="#ffffff" StringType="Single Color Custom" WorldPosX="-228.5179" WorldPosY="37.2747" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="9" PointData="0.000000,0.000000,0.000000,-5.174408,34.280537,0.000000,10.348831,61.446217,0.000000,267.129181,59.505795,0.000000,261.954742,31.693317,0.000000,261.954742,-7.761593,0.000000,-0.000015,-1.940380,0.000000,-4.527618,32.986927,0.000000,261.307983,30.399723,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Bush-1:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Bush-3" parm2="100" StringType="Single Color White" WorldPosX="34.5767" WorldPosY="27.1773" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="9" PointData="0.000000,0.000000,0.000000,-0.646782,39.454948,0.000000,4.527641,68.561043,0.000000,219.265869,62.739822,0.000000,216.678650,33.633736,0.000000,217.972260,-1.940361,0.000000,0.000038,-0.646751,0.000000,-1.940376,40.748558,0.000000,217.325470,36.220940,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Bush-2:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Poly Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="Bush-4" parm2="100" StringType="Single Color White" WorldPosX="253.1957" WorldPosY="24.5901" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="9" PointData="0.000000,0.000000,0.000000,-1.293533,38.161350,0.000000,1.293686,65.327026,0.000000,183.691788,58.212200,0.000000,194.040634,32.986927,0.000000,194.687424,-5.174374,0.000000,1.293686,0.000034,0.000000,-0.646729,38.808140,0.000000,192.747025,32.986927,0.000000" cPointData="" versionNumber="5" StartChannel="&gt;Bush-3:1">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+  </models>
+  <view_objects>
+    <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridLineSpacing="50" GridWidth="2000.0" GridHeight="1000.0" Active="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="-90.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5"/>
+  </view_objects>
+  <effects version="0006"/>
+  <views/>
+  <palettes/>
+  <modelGroups>
+    <modelGroup selected="0" name="Roof" LayoutGroup="Default" models="Roof-Garage,Roof-LivingRoom,Roof-Porch,Roof-Upstairs" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="Windows" LayoutGroup="Default" models="Window-Circle,Window-Garage,Window-Jeffrey,Window-Porch" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="Columns" LayoutGroup="Default" models="Column-1,Column-2,Column-3,Column-Office" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="All" LayoutGroup="Default" models="Bush-1,Bush-2,Bush-3,Bush-4,Column-1,Column-2,Column-3,Column-Office,Fence,Roof-Garage,Roof-LivingRoom,Roof-Porch,Roof-Upstairs,Tree-1,Tree-2,Window-Circle,Window-Garage,Window-Jeffrey,Window-Porch" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="Trees" LayoutGroup="Default" models="Tree-1,Tree-2" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="Bushes" LayoutGroup="Default" models="Bush-1,Bush-2,Bush-3,Bush-4" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="AllHouse" LayoutGroup="Default" models="Window-Circle,Window-Garage,Window-Jeffrey,Window-Porch,Roof-Garage,Roof-LivingRoom,Roof-Porch,Roof-Upstairs,Column-1,Column-2,Column-3,Column-Office" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="AllYard" LayoutGroup="Default" models="Bush-1,Bush-2,Bush-3,Bush-4,Tree-1,Tree-2,Fence" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="Left" LayoutGroup="Default" models="Bush-1,Bush-2,Tree-1" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="Right" LayoutGroup="Default" models="Bush-3,Bush-4,Tree-2" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid"/>
+    <modelGroup selected="0" name="Pixels" LayoutGroup="Default" models="Window-Porch,Window-Jeffrey,Window-Garage,Window-Circle,Roof-Upstairs,Roof-Porch,Roof-LivingRoom,Roof-Garage,Column-Office,Column-3,Column-2,Column-1" GridSize="400" XCentreOffset="120" YCentreOffset="-30" layout="minimalGrid"/>
+  </modelGroups>
+  <layoutGroups/>
+  <perspectives current="Default Perspective">
+    <perspective name="Default Perspective" settings="layout2|name=ModelPreview;caption=Model Preview;state=6293500;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=HousePreview;caption=House Preview;state=6293500;dir=4;layer=1;row=0;pos=1;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=EffectAssist;caption=Effect Assist;state=2099198;dir=4;layer=1;row=0;pos=2;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DisplayElements;caption=Display Elements;state=6293503;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=600;besth=400;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=600;floath=400|name=Perspectives;caption=Perspectives;state=2099198;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=207;besth=150;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Effect;caption=Effect Settings;state=2099196;dir=4;layer=0;row=1;pos=0;prop=100000;bestw=460;besth=831;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectEffect;caption=Select Effects;state=2099198;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=433;besth=269;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=EffectDropper;caption=Effects;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=1044;besth=696;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ValueCurveDropper;caption=Value Curves;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=40;besth=40;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ColourDropper;caption=Colours;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Jukebox;caption=Jukebox;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=100;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Color;caption=Color;state=2099196;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=375;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayerTiming;caption=Layer Blending;state=2099196;dir=1;layer=0;row=0;pos=1;prop=100000;bestw=308;besth=285;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayerSettings;caption=Layer Settings;state=2099196;dir=1;layer=0;row=0;pos=2;prop=100000;bestw=317;besth=458;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SequenceVideo;caption=Sequence Video;state=2099199;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=320;besth=169;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=320;floaty=206;floatw=320;floath=188|name=Main Sequencer;caption=Main Sequencer;state=768;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=122;besth=63;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,1,0)=252|dock_size(4,0,1)=352|dock_size(1,0,0)=143|dock_size(5,0,0)=124|" version="2.0"/>
+  </perspectives>
+  <settings>
+    <backgroundImage value="/Users/jeffreyfisher/Documents/xLights/Christmas2020/housePhoto.png"/>
+    <scaleImage value="0"/>
+    <Display2DCenter0 value="1"/>
+    <backgroundBrightness value="50"/>
+    <previewWidth value="1280"/>
+    <previewHeight value="720"/>
+  </settings>
+  <colors>
+    <DisabledEffect Red="255" Green="255" Blue="0"/>
+    <EffectDefault Red="192" Green="192" Blue="192"/>
+    <EffectSelected Red="204" Green="102" Blue="255"/>
+    <EffectSelectedFixed Red="255" Green="128" Blue="0"/>
+    <EffectSelectedLocked Red="200" Green="0" Blue="0"/>
+    <GridDashes Red="255" Green="255" Blue="0"/>
+    <Gridlines Red="40" Green="40" Blue="40"/>
+    <LabelOutline Red="103" Green="103" Blue="103"/>
+    <Labels Red="255" Green="255" Blue="204"/>
+    <LayoutDashes Red="255" Green="255" Blue="0"/>
+    <ModelDefault Red="211" Green="211" Blue="211"/>
+    <ModelOverlap Red="255" Green="0" Blue="0"/>
+    <ModelSelected Red="255" Green="255" Blue="0"/>
+    <Phonemes Red="255" Green="181" Blue="218"/>
+    <Phrases Red="153" Green="255" Blue="153"/>
+    <ReferenceEffect Red="255" Green="0" Blue="255"/>
+    <ReferenceEffectLocked Red="255" Green="0" Blue="0"/>
+    <RowHeaderSelected Red="130" Green="178" Blue="207"/>
+    <Timing1 Red="0" Green="255" Blue="255"/>
+    <Timing2 Red="255" Green="0" Blue="0"/>
+    <Timing3 Red="0" Green="255" Blue="0"/>
+    <Timing4 Red="0" Green="0" Blue="255"/>
+    <Timing5 Red="255" Green="255" Blue="0"/>
+    <TimingDefault Red="255" Green="255" Blue="255"/>
+    <Waveform Red="130" Green="178" Blue="207"/>
+    <WaveformSelected Red="0" Green="0" Blue="200"/>
+    <WaveformSelectedEffect Red="255" Green="128" Blue="0"/>
+    <Words Red="255" Green="218" Blue="145"/>
+  </colors>
+  <Viewpoints/>
+</xrgb>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2020.54</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHOICE_Butterfly_Colors=Rainbow,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=10,E_SLIDER_Butterfly_Style=1</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="1"/>
+    <Element collapsed="0" type="model" name="Roof" visible="1"/>
+    <Element collapsed="0" type="model" name="Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="Columns" visible="1"/>
+    <Element collapsed="0" type="model" name="All" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees" visible="1"/>
+    <Element collapsed="0" type="model" name="Bushes" visible="1"/>
+    <Element collapsed="0" type="model" name="AllHouse" visible="1"/>
+    <Element collapsed="0" type="model" name="AllYard" visible="1"/>
+    <Element collapsed="0" type="model" name="Left" visible="1"/>
+    <Element collapsed="0" type="model" name="Right" visible="1"/>
+    <Element collapsed="0" type="model" name="Pixels" visible="1"/>
+    <Element collapsed="0" type="model" name="AMatrix" visible="1"/>
+    <Element collapsed="0" type="model" name="Santa" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof-Porch" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof-LivingRoom" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof-Garage" visible="1"/>
+    <Element collapsed="0" type="model" name="Window-Jeffrey" visible="1"/>
+    <Element collapsed="0" type="model" name="Window-Garage" visible="1"/>
+    <Element collapsed="0" type="model" name="Window-Porch" visible="1"/>
+    <Element collapsed="0" type="model" name="Window-Circle" visible="1"/>
+    <Element collapsed="0" type="model" name="Column-1" visible="1"/>
+    <Element collapsed="0" type="model" name="Column-2" visible="1"/>
+    <Element collapsed="0" type="model" name="Column-3" visible="1"/>
+    <Element collapsed="0" type="model" name="Column-Office" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof-Upstairs" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree-1" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree-2" visible="1"/>
+    <Element collapsed="0" type="model" name="Bush-1" visible="1"/>
+    <Element collapsed="0" type="model" name="Bush-2" visible="1"/>
+    <Element collapsed="0" type="model" name="Bush-3" visible="1"/>
+    <Element collapsed="0" type="model" name="Bush-4" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Windows">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Columns">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="All">
+      <EffectLayer>
+        <Effect ref="0" name="Butterfly" startTime="850" endTime="7750" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Trees">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AllHouse">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AllYard">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Left">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Right">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pixels">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AMatrix">
+      <EffectLayer>
+        <Effect ref="0" name="Butterfly" selected="1" startTime="1950" endTime="11450" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Santa">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof-Porch">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof-LivingRoom">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof-Garage">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window-Jeffrey">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window-Garage">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window-Porch">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window-Circle">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column-1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column-2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column-3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column-Office">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof-Upstairs">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree-1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree-2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush-1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush-2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush-3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush-4">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

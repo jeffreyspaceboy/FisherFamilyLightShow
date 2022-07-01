@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2020.55</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=bold arial utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=41,E_TEXTCTRL_Text=Show Starts In:,E_TEXTCTRL_Text_Speed=10</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=minutes seconds,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=bold arial 18 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=22,E_TEXTCTRL_Text=10:00,E_TEXTCTRL_Text_Speed=10</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=bold arial 24 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=-29,E_TEXTCTRL_Text=91.5 FM,E_TEXTCTRL_Text_Speed=10</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="1"/>
+    <Element collapsed="0" type="model" name="Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Garage" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Porch" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Porch" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Circle" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof" visible="1"/>
+    <Element collapsed="0" type="model" name="Bushes" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees" visible="1"/>
+    <Element collapsed="0" type="model" name="AC_Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="DC_Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Jeffrey" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Jeffrey_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Jeffrey_B" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Jeffrey_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Jeffrey_T" visible="1"/>
+    <Element collapsed="0" type="model" name="Bush_4" visible="1"/>
+    <Element collapsed="0" type="model" name="Bush_3" visible="1"/>
+    <Element collapsed="0" type="model" name="Bush_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Bush_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_LivingRoom" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Circle_TR" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Circle_BR" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Circle_BL" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Porch_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Porch_B" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Porch_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Porch_T" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Porch_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Garage_T" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Garage_B" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Garage_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Garage_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="Santa" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Porch_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Middle" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_Circle_TL" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Garage" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Windows">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Garage">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Porch">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Porch">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Circle">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC_Lights">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="DC_Lights">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Jeffrey">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Jeffrey_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Jeffrey_B">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Jeffrey_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Jeffrey_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush_4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush_3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_LivingRoom">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Circle_TR">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Circle_BR">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Circle_BL">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Porch_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Porch_B">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Porch_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Porch_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Porch_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Garage_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Garage_B">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Garage_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Garage_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Matrix">
+      <EffectLayer>
+        <Effect ref="0" name="Text" selected="1" startTime="0" endTime="10000" palette="0"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="1" name="Text" selected="1" id="1" startTime="0" endTime="10000" palette="1"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="2" name="Text" selected="1" startTime="0" endTime="10000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Santa">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Porch_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Middle">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Circle_TL">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Garage">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

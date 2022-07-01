@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2020.56.1</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>/Users/jeffreyfisher/Downloads/Elmo &amp; Patsy - Grandma Got Run over by a Reindeer (1).mp3</mediaFile>
+    <sequenceDuration>204.335</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Boscoyo Singing Tree,E_CHOICE_Faces_TimingTrack=Tree_Voice</Effect>
+    <Effect></Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="Tree_Voice" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="model" name="Boscoyo Singing Tree-V2 4 Lip" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="Tree_Voice">
+      <EffectLayer>
+        <Effect label="Grandma got run over by a reindeer" startTime="4500" endTime="7750"></Effect>
+        <Effect label="Walking home from our house Christmas eve" startTime="8850" endTime="11700"></Effect>
+        <Effect label="You can say there's no such thing as Santa" startTime="13200" endTime="16400"></Effect>
+        <Effect label="But as for me and grandpa we believe" startTime="17350" endTime="20400"></Effect>
+        <Effect label="She'd been drinking too much eggnog" startTime="22200" endTime="25050"></Effect>
+        <Effect label="And we begged her not to go" startTime="26750" endTime="28900"></Effect>
+        <Effect label="But she forgot her medication" startTime="30850" endTime="33750"></Effect>
+        <Effect label="And she staggered out the door into the snow" startTime="34250" endTime="37500"></Effect>
+        <Effect label="When we found her Christmas morning" startTime="39650" endTime="42150"></Effect>
+        <Effect label="At the scene of the attack" startTime="44000" endTime="46150"></Effect>
+        <Effect label="She had hoof-prints on her forehead" startTime="48250" endTime="50900"></Effect>
+        <Effect label="And incriminating Claus marks on her back" startTime="51600" endTime="54750"></Effect>
+        <Effect label="Grandma got run over by a reindeer" startTime="56300" endTime="59650"></Effect>
+        <Effect label="Walking home from our house Christmas eve" startTime="59650" endTime="62600"></Effect>
+        <Effect label="You can say there's no such thing as Santa" startTime="62600" endTime="66750"></Effect>
+        <Effect label="But as for me and grandpa we believe" startTime="66750" endTime="70900"></Effect>
+        <Effect label="Now we're all so proud of grandpa" startTime="70900" endTime="75050"></Effect>
+        <Effect label="He's been taking this so well" startTime="75050" endTime="79200"></Effect>
+        <Effect label="See him in there watching football" startTime="79200" endTime="83350"></Effect>
+        <Effect label="Drinking beer and playing cards with cousin Mel" startTime="83350" endTime="87500"></Effect>
+        <Effect label="It's not Christmas without Grandma" startTime="87500" endTime="91650"></Effect>
+        <Effect label="All the family's dressed in black" startTime="91650" endTime="95800"></Effect>
+        <Effect label="And we just can't help but wonder" startTime="95800" endTime="99950"></Effect>
+        <Effect label="Should we open up her gifts" startTime="99950" endTime="104100"></Effect>
+        <Effect label="Or send them back (send them back)" startTime="104100" endTime="108250"></Effect>
+        <Effect label="Grandma got run over by a reindeer" startTime="108250" endTime="112400"></Effect>
+        <Effect label="Walking home from our house Christmas eve" startTime="112400" endTime="116550"></Effect>
+        <Effect label="You can say there's no such thing as Santa" startTime="116550" endTime="120700"></Effect>
+        <Effect label="But as for me and grandpa we believe" startTime="120700" endTime="124850"></Effect>
+        <Effect label="Now the goose is on the table" startTime="124850" endTime="129000"></Effect>
+        <Effect label="And the pudding made of fig" startTime="129000" endTime="133150"></Effect>
+        <Effect label="And the blue and silver candles" startTime="133150" endTime="137300"></Effect>
+        <Effect label="That would just have matched the hair on grandma's wig" startTime="137300" endTime="141450"></Effect>
+        <Effect label="I've warned all my friends and neighbors" startTime="141450" endTime="145600"></Effect>
+        <Effect label="Better watch out for yourselves" startTime="145600" endTime="149750"></Effect>
+        <Effect label="They should never give a license" startTime="149750" endTime="153900"></Effect>
+        <Effect label="To a man who drives a sleigh" startTime="153900" endTime="158050"></Effect>
+        <Effect label="And plays with elves" startTime="158050" endTime="162200"></Effect>
+        <Effect label="Grandma got run over by a reindeer" startTime="162200" endTime="166350"></Effect>
+        <Effect label="Walking home from our house Christmas eve" startTime="166350" endTime="170500"></Effect>
+        <Effect label="You can say there's no such thing as Santa" startTime="170500" endTime="174650"></Effect>
+        <Effect label="But as for me and grandpa we believe" startTime="174650" endTime="178800"></Effect>
+        <Effect label="Singin' grandpa" startTime="178800" endTime="182950"></Effect>
+        <Effect label="Grandma got run over by a reindeer" startTime="182950" endTime="187100"></Effect>
+        <Effect label="Walking home from our house Christmas eve" startTime="187100" endTime="191250"></Effect>
+        <Effect label="You can say there's no such thing as Santa" startTime="191250" endTime="195400"></Effect>
+        <Effect label="But as for me and grandpa we believe" startTime="195400" endTime="199550"></Effect>
+        <Effect label="Merry Christmas" startTime="199550" endTime="203700"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="Grandma" startTime="4500" endTime="5150"></Effect>
+        <Effect label="got" startTime="5150" endTime="5400"></Effect>
+        <Effect label="run" startTime="5400" endTime="5600"></Effect>
+        <Effect label="over" startTime="5600" endTime="6200"></Effect>
+        <Effect label="by" startTime="6200" endTime="6500"></Effect>
+        <Effect label="a" startTime="6500" endTime="6650"></Effect>
+        <Effect label="reindeer" startTime="6650" endTime="7750"></Effect>
+        <Effect label="Walking" startTime="8850" endTime="9300"></Effect>
+        <Effect label="home" startTime="9300" endTime="9550"></Effect>
+        <Effect label="from" startTime="9600" endTime="9900"></Effect>
+        <Effect label="our" startTime="9900" endTime="10150"></Effect>
+        <Effect label="house" startTime="10150" endTime="10450"></Effect>
+        <Effect label="Christmas" startTime="10550" endTime="11050"></Effect>
+        <Effect label="eve" startTime="11050" endTime="11700"></Effect>
+        <Effect label="You" startTime="13200" endTime="13350"></Effect>
+        <Effect label="can" startTime="13350" endTime="13600"></Effect>
+        <Effect label="say" startTime="13650" endTime="14000"></Effect>
+        <Effect label="there's" startTime="14000" endTime="14300"></Effect>
+        <Effect label="no" startTime="14300" endTime="14550"></Effect>
+        <Effect label="such" startTime="14550" endTime="14800"></Effect>
+        <Effect label="thing" startTime="14800" endTime="15050"></Effect>
+        <Effect label="as" startTime="15050" endTime="15300"></Effect>
+        <Effect label="Santa" startTime="15300" endTime="16400"></Effect>
+        <Effect label="But" startTime="17450" endTime="17700"></Effect>
+        <Effect label="as" startTime="17700" endTime="17900"></Effect>
+        <Effect label="for" startTime="17900" endTime="18050"></Effect>
+        <Effect label="me" startTime="18050" endTime="18250"></Effect>
+        <Effect label="and" startTime="18250" endTime="18500"></Effect>
+        <Effect label="grandpa" startTime="18500" endTime="19150"></Effect>
+        <Effect label="we" startTime="19150" endTime="20000"></Effect>
+        <Effect label="believe" startTime="20000" endTime="20400"></Effect>
+        <Effect label="She'd" startTime="22350" endTime="22650"></Effect>
+        <Effect label="been" startTime="22750" endTime="22900"></Effect>
+        <Effect label="drinking" startTime="22900" endTime="23550"></Effect>
+        <Effect label="too" startTime="23550" endTime="23800"></Effect>
+        <Effect label="much" selected="1" startTime="23800" endTime="24250"></Effect>
+        <Effect label="eggnog" startTime="24250" endTime="25050"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="etc" startTime="4500" endTime="4550"></Effect>
+        <Effect label="AI" startTime="4550" endTime="4800"></Effect>
+        <Effect label="etc" startTime="4800" endTime="4850"></Effect>
+        <Effect label="MBP" startTime="4850" endTime="4900"></Effect>
+        <Effect label="AI" startTime="4900" endTime="5150"></Effect>
+        <Effect label="etc" startTime="5150" endTime="5200"></Effect>
+        <Effect label="AI" startTime="5200" endTime="5350"></Effect>
+        <Effect label="etc" startTime="5350" endTime="5400"></Effect>
+        <Effect label="etc" startTime="5400" endTime="5450"></Effect>
+        <Effect label="AI" startTime="5450" endTime="5550"></Effect>
+        <Effect label="etc" startTime="5550" endTime="5600"></Effect>
+        <Effect label="O" startTime="5600" endTime="5800"></Effect>
+        <Effect label="FV" startTime="5800" endTime="6000"></Effect>
+        <Effect label="E" startTime="6000" endTime="6200"></Effect>
+        <Effect label="MBP" startTime="6200" endTime="6250"></Effect>
+        <Effect label="AI" startTime="6250" endTime="6500"></Effect>
+        <Effect label="AI" startTime="6500" endTime="6650"></Effect>
+        <Effect label="etc" startTime="6650" endTime="6700"></Effect>
+        <Effect label="E" startTime="6700" endTime="7200"></Effect>
+        <Effect label="etc" startTime="7200" endTime="7250"></Effect>
+        <Effect label="AI" startTime="7250" endTime="7700"></Effect>
+        <Effect label="etc" startTime="7700" endTime="7750"></Effect>
+        <Effect label="WQ" startTime="8850" endTime="8950"></Effect>
+        <Effect label="O" startTime="8950" endTime="9100"></Effect>
+        <Effect label="etc" startTime="9100" endTime="9150"></Effect>
+        <Effect label="AI" startTime="9150" endTime="9250"></Effect>
+        <Effect label="etc" startTime="9250" endTime="9300"></Effect>
+        <Effect label="etc" startTime="9300" endTime="9350"></Effect>
+        <Effect label="O" startTime="9350" endTime="9500"></Effect>
+        <Effect label="MBP" startTime="9500" endTime="9550"></Effect>
+        <Effect label="FV" startTime="9600" endTime="9700"></Effect>
+        <Effect label="etc" startTime="9700" endTime="9750"></Effect>
+        <Effect label="AI" startTime="9750" endTime="9850"></Effect>
+        <Effect label="MBP" startTime="9850" endTime="9900"></Effect>
+        <Effect label="O" startTime="9900" endTime="10050"></Effect>
+        <Effect label="E" startTime="10050" endTime="10150"></Effect>
+        <Effect label="etc" startTime="10150" endTime="10200"></Effect>
+        <Effect label="O" startTime="10200" endTime="10400"></Effect>
+        <Effect label="etc" startTime="10400" endTime="10450"></Effect>
+        <Effect label="etc" startTime="10550" endTime="10600"></Effect>
+        <Effect label="AI" startTime="10600" endTime="10750"></Effect>
+        <Effect label="etc" startTime="10750" endTime="10800"></Effect>
+        <Effect label="MBP" startTime="10800" endTime="10850"></Effect>
+        <Effect label="AI" startTime="10850" endTime="11000"></Effect>
+        <Effect label="etc" startTime="11000" endTime="11050"></Effect>
+        <Effect label="E" startTime="11050" endTime="11400"></Effect>
+        <Effect label="FV" startTime="11400" endTime="11700"></Effect>
+        <Effect label="etc" startTime="13200" endTime="13250"></Effect>
+        <Effect label="U" startTime="13250" endTime="13350"></Effect>
+        <Effect label="etc" startTime="13350" endTime="13400"></Effect>
+        <Effect label="AI" startTime="13400" endTime="13550"></Effect>
+        <Effect label="etc" startTime="13550" endTime="13600"></Effect>
+        <Effect label="etc" startTime="13650" endTime="13700"></Effect>
+        <Effect label="E" startTime="13700" endTime="14000"></Effect>
+        <Effect label="etc" startTime="14000" endTime="14050"></Effect>
+        <Effect label="E" startTime="14050" endTime="14250"></Effect>
+        <Effect label="etc" startTime="14250" endTime="14300"></Effect>
+        <Effect label="etc" startTime="14300" endTime="14350"></Effect>
+        <Effect label="O" startTime="14350" endTime="14550"></Effect>
+        <Effect label="etc" startTime="14550" endTime="14600"></Effect>
+        <Effect label="AI" startTime="14600" endTime="14750"></Effect>
+        <Effect label="etc" startTime="14750" endTime="14800"></Effect>
+        <Effect label="etc" startTime="14800" endTime="14850"></Effect>
+        <Effect label="AI" startTime="14850" endTime="15000"></Effect>
+        <Effect label="etc" startTime="15000" endTime="15050"></Effect>
+        <Effect label="AI" startTime="15050" endTime="15250"></Effect>
+        <Effect label="etc" startTime="15250" endTime="15300"></Effect>
+        <Effect label="etc" startTime="15300" endTime="15350"></Effect>
+        <Effect label="AI" startTime="15350" endTime="15850"></Effect>
+        <Effect label="etc" startTime="15850" endTime="15900"></Effect>
+        <Effect label="AI" startTime="15900" endTime="16400"></Effect>
+        <Effect label="MBP" startTime="17450" endTime="17500"></Effect>
+        <Effect label="AI" startTime="17500" endTime="17650"></Effect>
+        <Effect label="etc" startTime="17650" endTime="17700"></Effect>
+        <Effect label="AI" startTime="17700" endTime="17850"></Effect>
+        <Effect label="etc" startTime="17850" endTime="17900"></Effect>
+        <Effect label="FV" startTime="17900" endTime="17950"></Effect>
+        <Effect label="O" startTime="17950" endTime="18000"></Effect>
+        <Effect label="etc" startTime="18000" endTime="18050"></Effect>
+        <Effect label="MBP" startTime="18050" endTime="18100"></Effect>
+        <Effect label="E" startTime="18100" endTime="18250"></Effect>
+        <Effect label="AI" startTime="18250" endTime="18450"></Effect>
+        <Effect label="etc" startTime="18450" endTime="18500"></Effect>
+        <Effect label="etc" startTime="18500" endTime="18550"></Effect>
+        <Effect label="AI" startTime="18550" endTime="18850"></Effect>
+        <Effect label="etc" startTime="18850" endTime="18900"></Effect>
+        <Effect label="MBP" startTime="18900" endTime="18950"></Effect>
+        <Effect label="AI" startTime="18950" endTime="19200"></Effect>
+        <Effect label="WQ" startTime="19200" endTime="19300"></Effect>
+        <Effect label="E" startTime="19300" endTime="19400"></Effect>
+        <Effect label="MBP" startTime="19400" endTime="19450"></Effect>
+        <Effect label="AI" startTime="19450" endTime="19700"></Effect>
+        <Effect label="L" startTime="19700" endTime="19950"></Effect>
+        <Effect label="E" startTime="19950" endTime="20150"></Effect>
+        <Effect label="FV" startTime="20150" endTime="20400"></Effect>
+        <Effect label="etc" startTime="22350" endTime="22400"></Effect>
+        <Effect label="E" startTime="22400" endTime="22600"></Effect>
+        <Effect label="etc" startTime="22600" endTime="22650"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Boscoyo Singing Tree-V2 4 Lip">
+      <EffectLayer>
+        <Effect ref="0" name="Faces" startTime="4500" endTime="79700" palette="0"/>
+      </EffectLayer>
+      <SubModelEffectLayer name="Tree Outline">
+        <Effect ref="1" name="On" startTime="250" endTime="149000" palette="0"/>
+      </SubModelEffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

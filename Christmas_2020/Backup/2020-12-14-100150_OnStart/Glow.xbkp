@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2020.54</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#FFFFFF,C_BUTTON_Palette4=#FB0207,C_BUTTON_Palette5=#FFFFFF,C_BUTTON_Palette6=#FB0207,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#FB0207,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHOICE_Butterfly_Colors=Rainbow,E_CHOICE_Butterfly_Direction=Normal,E_SLIDER_Butterfly_Chunks=1,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=1,E_SLIDER_Butterfly_Style=1</Effect>
+    <Effect>E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=0,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=Right,E_SLIDER_Bars_BarCount=5,E_TEXTCTRL_Bars_Cycles=3.5</Effect>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=3,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=2,E_SLIDER_Pinwheel_Thickness=40,E_SLIDER_Pinwheel_Twist=0</Effect>
+    <Effect></Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=bold chalkboard 18 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=23,E_TEXTCTRL_Text=Merry,E_TEXTCTRL_Text_Speed=10</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=bold chalkboard 18 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=-13,E_TEXTCTRL_Text=Christmas!,E_TEXTCTRL_Text_Speed=10</Effect>
+    <Effect>E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=14,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=0,E_SLIDER_Marquee_Speed=3,E_SLIDER_Marquee_Stagger=1,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=4</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="1" type="timing" name="New Timing" visible="1" views="Master View" active="1"/>
+    <Element collapsed="1" type="model" name="DC_Lights" visible="1"/>
+    <Element collapsed="1" type="model" name="AC_Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="Windows" visible="0"/>
+    <Element collapsed="0" type="model" name="Roof" visible="0"/>
+    <Element collapsed="0" type="model" name="Window_Circle" visible="0"/>
+    <Element collapsed="0" type="model" name="Window_Garage" visible="0"/>
+    <Element collapsed="0" type="model" name="Window_Porch" visible="0"/>
+    <Element collapsed="0" type="model" name="Window_Jeffrey" visible="0"/>
+    <Element collapsed="0" type="model" name="Roof_LivingRoom" visible="0"/>
+    <Element collapsed="0" type="model" name="Roof_Middle" visible="0"/>
+    <Element collapsed="0" type="model" name="Roof_Porch" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence" visible="0"/>
+    <Element collapsed="0" type="model" name="Santa" visible="0"/>
+    <Element collapsed="0" type="model" name="Bush_1" visible="0"/>
+    <Element collapsed="0" type="model" name="Bush_2" visible="0"/>
+    <Element collapsed="0" type="model" name="Bush_3" visible="0"/>
+    <Element collapsed="0" type="model" name="Bush_4" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree_1" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree_2" visible="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="DC_Lights">
+      <EffectLayer>
+        <Effect ref="0" name="Butterfly" startTime="0" endTime="10000" palette="0"/>
+        <Effect ref="1" name="Bars" id="1" startTime="10000" endTime="20000" palette="1"/>
+        <Effect ref="2" name="Pinwheel" id="2" startTime="20000" endTime="30000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="AC_Lights">
+      <EffectLayer>
+        <Effect ref="3" name="On" startTime="0" endTime="30000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Matrix">
+      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="4" name="Text" startTime="0" endTime="30000" palette="3"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="5" name="Text" startTime="0" endTime="30000" palette="3"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="6" name="Marquee" id="1" startTime="0" endTime="30050" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Windows">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Circle">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Garage">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Porch">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_Jeffrey">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_LivingRoom">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Middle">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Porch">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Santa">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush_3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush_4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree_2">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

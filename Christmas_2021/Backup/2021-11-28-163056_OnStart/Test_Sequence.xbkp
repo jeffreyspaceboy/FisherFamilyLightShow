@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2021.37</version>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile/>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette7=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_TEXTCTRL_On_Cycles=0.0</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="405" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="1"/>
+    <Element collapsed="0" type="model" name="Tree_Singer" visible="1"/>
+    <Element collapsed="0" type="model" name="Matrix" visible="1"/>
+    <Element collapsed="0" type="model" name="Pixels" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof" visible="1"/>
+    <Element collapsed="1" type="model" name="Garages" visible="1"/>
+    <Element collapsed="0" type="model" name="Vertical" visible="1"/>
+    <Element collapsed="0" type="model" name="Horizontal" visible="1"/>
+    <Element collapsed="0" type="model" name="AC_Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees" visible="1"/>
+    <Element collapsed="0" type="model" name="Santa" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees_Big" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees_Medium" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees_Small" visible="0"/>
+    <Element collapsed="0" type="model" name="Roof_Low" visible="0"/>
+    <Element collapsed="0" type="model" name="Roof_Low_1" visible="0"/>
+    <Element collapsed="0" type="model" name="Roof_Low_2" visible="0"/>
+    <Element collapsed="0" type="model" name="Roof_Low_3" visible="0"/>
+    <Element collapsed="0" type="model" name="Roof_Low_4" visible="0"/>
+    <Element collapsed="0" type="model" name="Garage_Left" visible="0"/>
+    <Element collapsed="0" type="model" name="Garage_Right" visible="0"/>
+    <Element collapsed="0" type="model" name="WalkWay" visible="0"/>
+    <Element collapsed="0" type="model" name="Columns" visible="0"/>
+    <Element collapsed="0" type="model" name="Garage_Left_L" visible="0"/>
+    <Element collapsed="0" type="model" name="Garage_Left_R" visible="0"/>
+    <Element collapsed="0" type="model" name="Garage_Right_L" visible="0"/>
+    <Element collapsed="0" type="model" name="Garage_Right_R" visible="0"/>
+    <Element collapsed="0" type="model" name="WalkWay_L" visible="0"/>
+    <Element collapsed="0" type="model" name="WalkWay_R" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree_Big_1" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree_Big_2" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree_Medium_1" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree_Medium_2" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree_Small_1" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree_Small_2" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree_Small_3" visible="0"/>
+    <Element collapsed="0" type="model" name="Column_Low" visible="0"/>
+    <Element collapsed="0" type="model" name="Column_Low_1" visible="0"/>
+    <Element collapsed="0" type="model" name="Column_Low_2" visible="0"/>
+    <Element collapsed="0" type="model" name="Column_Low_3" visible="0"/>
+    <Element collapsed="0" type="model" name="Column_Low_4" visible="0"/>
+    <Element collapsed="0" type="model" name="Garage_Left_T" visible="0"/>
+    <Element collapsed="0" type="model" name="Garage_Right_T" visible="0"/>
+    <Element collapsed="0" type="model" name="WalkWay_T" visible="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree_Singer">
+      <EffectLayer/>
+      <SubModelEffectLayer name="Outline">
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="1"/>
+        <Effect ref="0" name="On" id="2" startTime="10000" endTime="15000" palette="2"/>
+        <Effect ref="0" name="On" id="3" startTime="15000" endTime="20000" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="20000" endTime="25000" palette="1"/>
+        <Effect ref="0" name="On" id="5" startTime="25000" endTime="30000" palette="2"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Eyes">
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="2"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="10000" endTime="15000" palette="1"/>
+        <Effect ref="0" name="On" id="3" startTime="15000" endTime="20000" palette="2"/>
+        <Effect ref="0" name="On" id="4" startTime="20000" endTime="25000" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="25000" endTime="30000" palette="1"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Mouth">
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="1"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="2"/>
+        <Effect ref="0" name="On" id="2" startTime="10000" endTime="15000" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="15000" endTime="20000" palette="1"/>
+        <Effect ref="0" name="On" id="4" startTime="20000" endTime="25000" palette="2"/>
+        <Effect ref="0" name="On" id="5" startTime="25000" endTime="30000" palette="0"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="Matrix">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pixels">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garages">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Vertical">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Horizontal">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="AC_Lights">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Santa">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="3"/>
+        <Effect ref="0" name="On" id="1" startTime="10050" endTime="15050" palette="3"/>
+        <Effect ref="0" name="On" id="3" startTime="20050" endTime="25050" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Trees_Big">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees_Medium">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees_Small">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low_1">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="4"/>
+        <Effect ref="0" name="On" id="2" startTime="10000" endTime="15000" palette="1"/>
+        <Effect ref="0" name="On" id="3" startTime="15000" endTime="20000" palette="2"/>
+        <Effect ref="0" name="On" id="4" startTime="20000" endTime="25000" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="25000" endTime="30000" palette="4"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof_Low_2">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="2"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="10000" endTime="15000" palette="4"/>
+        <Effect ref="0" name="On" id="3" startTime="15000" endTime="20000" palette="1"/>
+        <Effect ref="0" name="On" id="4" startTime="20000" endTime="25000" palette="2"/>
+        <Effect ref="0" name="On" id="5" startTime="25000" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof_Low_3">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="1"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="2"/>
+        <Effect ref="0" name="On" id="2" startTime="10000" endTime="15000" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="15000" endTime="20000" palette="4"/>
+        <Effect ref="0" name="On" id="4" startTime="20000" endTime="25000" palette="1"/>
+        <Effect ref="0" name="On" id="5" startTime="25000" endTime="30000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof_Low_4">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="4"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="1"/>
+        <Effect ref="0" name="On" id="2" startTime="10000" endTime="15000" palette="2"/>
+        <Effect ref="0" name="On" id="3" startTime="15000" endTime="20000" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="20000" endTime="25000" palette="4"/>
+        <Effect ref="0" name="On" id="5" startTime="25000" endTime="30000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Garage_Left">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Right">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WalkWay">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Columns">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Left_L">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="4"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="5"/>
+        <Effect ref="0" name="On" id="2" startTime="10000" endTime="15000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Garage_Left_R">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="5"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="6"/>
+        <Effect ref="0" name="On" id="2" startTime="10000" endTime="15000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Garage_Right_L">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="4"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="5"/>
+        <Effect ref="0" name="On" id="2" startTime="10000" endTime="15000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Garage_Right_R">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="5"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="6"/>
+        <Effect ref="0" name="On" id="2" startTime="10000" endTime="15000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="WalkWay_L">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="4"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="5"/>
+        <Effect ref="0" name="On" id="2" startTime="10000" endTime="15000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="WalkWay_R">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="5"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="6"/>
+        <Effect ref="0" name="On" id="2" startTime="10000" endTime="15000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree_Big_1">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="3"/>
+        <Effect ref="0" name="On" id="1" startTime="10050" endTime="15050" palette="3"/>
+        <Effect ref="0" name="On" id="2" startTime="20000" endTime="25000" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree_Big_2">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="5000" endTime="10000" palette="3"/>
+        <Effect ref="0" name="On" id="1" startTime="15000" endTime="20000" palette="3"/>
+        <Effect ref="0" name="On" id="2" startTime="25000" endTime="30000" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree_Medium_1">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="3"/>
+        <Effect ref="0" name="On" id="1" startTime="10100" endTime="15100" palette="3"/>
+        <Effect ref="0" name="On" id="2" startTime="20100" endTime="25100" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree_Medium_2">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="5050" endTime="10050" palette="3"/>
+        <Effect ref="0" name="On" id="1" startTime="15100" endTime="20100" palette="3"/>
+        <Effect ref="0" name="On" id="2" startTime="25100" endTime="30100" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree_Small_1">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="3"/>
+        <Effect ref="0" name="On" id="1" startTime="15050" endTime="20050" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree_Small_2">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="5000" endTime="10000" palette="3"/>
+        <Effect ref="0" name="On" id="1" startTime="20050" endTime="25050" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree_Small_3">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="10050" endTime="15050" palette="3"/>
+        <Effect ref="0" name="On" id="1" startTime="25050" endTime="30050" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Column_Low">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_Low_1">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="6"/>
+        <Effect ref="0" name="On" id="1" startTime="5050" endTime="10050" palette="2"/>
+        <Effect ref="0" name="On" id="2" startTime="10050" endTime="15050" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="15050" endTime="20050" palette="4"/>
+        <Effect ref="0" name="On" id="4" startTime="20050" endTime="25050" palette="6"/>
+        <Effect ref="0" name="On" id="5" startTime="25050" endTime="30050" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Column_Low_2">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="4"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="6"/>
+        <Effect ref="0" name="On" id="2" startTime="10050" endTime="15050" palette="2"/>
+        <Effect ref="0" name="On" id="3" startTime="15050" endTime="20050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="20050" endTime="25050" palette="4"/>
+        <Effect ref="0" name="On" id="5" startTime="25050" endTime="30050" palette="6"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Column_Low_3">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="4"/>
+        <Effect ref="0" name="On" id="2" startTime="10000" endTime="15000" palette="6"/>
+        <Effect ref="0" name="On" id="3" startTime="15050" endTime="20050" palette="2"/>
+        <Effect ref="0" name="On" id="4" startTime="20050" endTime="25050" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="25050" endTime="30050" palette="4"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Column_Low_4">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="2"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="10000" endTime="15000" palette="4"/>
+        <Effect ref="0" name="On" id="3" startTime="15000" endTime="20000" palette="6"/>
+        <Effect ref="0" name="On" id="4" startTime="20050" endTime="25050" palette="2"/>
+        <Effect ref="0" name="On" id="5" startTime="25050" endTime="30050" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Garage_Left_T">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="6"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="4"/>
+        <Effect ref="0" name="On" id="2" startTime="10000" endTime="15000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Garage_Right_T">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="6"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="4"/>
+        <Effect ref="0" name="On" selected="1" id="2" startTime="10000" endTime="15000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="WalkWay_T">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="5000" palette="6"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="10000" palette="4"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

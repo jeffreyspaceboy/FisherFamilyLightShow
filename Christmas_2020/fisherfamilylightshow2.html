@@ -1,0 +1,587 @@
+<style type="text/css">
+    /******************************* 
+    Base Config -- Defines base configuration for your page, the font and font color. 
+    ********************************/
+    * {
+        box-sizing: border-box;
+        font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    body {
+        background-color: #363636;
+    }
+
+    div {
+        font-size: 25px;
+        line-height: 1.5;
+        text-align: center;
+        color: #b3b3b3;
+        border-radius: 10px;
+    }
+
+    section {
+        background-color: #575757;
+        margin: auto;
+        width: 90%;
+        border-radius: 15px;
+        padding: 5px;
+    }
+
+
+
+    p1 {
+        font-family: Arial, sans-serif;
+        font-size: 22px;
+        color: #b3b3b3;
+        margin: auto;
+        width: 90%;
+        text-align: center;
+
+    }
+
+    p2 {
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        color: #b3b3b3;
+        margin: auto;
+        width: 90%;
+        text-align: center;
+
+    }
+
+    p3 {
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        color: #b3b3b3;
+        margin: auto;
+        width: 90%;
+        text-align: center;
+
+    }
+
+    .body_text {
+        /*background-color: #222222;*/
+        margin: auto;
+        width: 90%;
+        color: #7e8c8d;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #instructional-text {
+        /*background-color: #000000;*/
+        margin: auto;
+        width: 90%;
+        color: #7e8c8d;
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+    /*******************************
+    Header_Img_Content -- For configuring looks for that section.
+    ********************************/
+
+    #header_image {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        background-position: center;
+        border-radius: 20px;
+    }
+
+    /*******************************
+    Body Text -- The generic style for your normal text areas. 
+    ********************************/
+
+
+
+
+    /******************************* 
+    Footer -- This will format the footer.
+    ********************************/
+
+    #footer {
+        background-color: #D0021B;
+        margin: auto;
+        width: 90%;
+        color: #ffffff;
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+    /*******************************
+    The #intro section is for configuring looks for that section
+    ********************************/
+
+    #intro {
+        /*background-color: #000000;*/
+        margin: auto;
+        width: 90%;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    #show-hours {
+        width: 90%;
+        font-size: 20px;
+        border: none;
+        font-weight: bold;
+        margin: auto;
+        color: #E3E3E3;
+    }
+
+    /*******************************
+    Horizontal.Separator -- Used to configure the separator bar.
+    ********************************/
+
+    hr.separator {
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 95%;
+        height: 8px;
+        border: 0;
+        background-color: #363636;
+        padding: 0px;
+    }
+
+    /*******************************
+    Playlists-Container -- Configure list of your songs section
+    ********************************/
+
+    #playlists_container {
+        background-color: #000000;
+        margin: auto;
+        width: 90%;
+        color: #D0021B;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    /*******************************
+    The rf-titles is used to configure the title above the RF imported data
+    ********************************/
+
+    .rf-titles {
+        /** only needed if you want a different background color for for this section
+        background-color: #000000;
+        border-bottom: 2px solid white;
+        **/
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    /*******************************
+    The playing-now class is used to configure the text that shows what is currently playing
+    ********************************/
+
+    .playing-now {
+        /*text-align: left; */
+        margin-top: 10px;
+        color: white;
+        font-size: 20px;
+    }
+
+    /*******************************
+    RTable -- The rtable is used to configure table where the rf lists will show. (DNM!)
+    ********************************/
+
+    .rtable {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        text-align: center;
+        width: 90%;
+        padding: 0;
+    }
+
+    .rtable-std {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        text-align: center;
+        width: 90%;
+        padding: 0;
+    }
+
+
+    /*******************************
+    The cell-vote-playlist is used to configure the table where the rf lists will show when you are using the voting mode
+    You shouldn't modify this with the exception of the font-size, border and cursor properties    
+    ********************************/
+
+    .cell-vote-playlist {
+        flex-grow: 1;
+        width: 85%;
+        font-weight: bold;
+        overflow: hidden;
+        list-style: none;
+        font-size: 20px;
+        border: solid white;
+        border-width: 2px 2px 1px 2px;
+        cursor: pointer;
+    }
+
+    .cell-std-playlist {
+        flex-grow: 1;
+        width: 85%;
+        font-weight: bold;
+        overflow: hidden;
+        list-style: none;
+        font-size: 20px;
+        border: solid white;
+        border-width: 2px 2px 1px 2px;
+        cursor: pointer;
+    }
+
+    /*******************************
+    The cell-vote is used to configure the table where the rf lists will show when you are using the voting mode
+    You shouldn't modify this with the exception of the font-size, border and cursor properties
+    ********************************/
+
+    .cell-vote {
+        flex-grow: 1;
+        width: 15%;
+        font-weight: bold;
+        overflow: hidden;
+        list-style: none;
+        font-size: 20px;
+        border: solid white;
+        border-width: 2px 2px 1px 0px;
+
+    }
+
+    .cell-std {
+        flex-grow: 1;
+        width: 15%;
+        font-weight: bold;
+        overflow: hidden;
+        list-style: none;
+        font-size: 20px;
+        border: solid white;
+        border-width: 2px 2px 1px 0px;
+
+    }
+
+
+    /*******************************
+    The jukebox-list is used to configure the table where the rf lists will show when you are using the jukebox mode
+    You shouldn't modify this with the exception of the font-size, border and cursor properties   
+    ********************************/
+
+
+    .jukebox-list {
+        width: 100%;
+        font-size: 24px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        /**border-width: 2px 2px 1px 2px; **/
+        /**cursor:grabbing ; **/
+
+    }
+
+    /*******************************
+    The after-hours class is used to configure a message to be displayed when
+    you don't have a scheduled playlist playing
+    ********************************/
+
+    .after-hours {
+        width: 90%;
+        font-size: 20px;
+        border: none;
+        font-weight: bold;
+        margin: auto;
+        color: #C0010A;
+    }
+
+    /*******************************
+    The button is used to configure your buttons
+    ********************************/
+
+    .button {
+        background-color: #C0010A;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+    #submit {
+        background-color: #d60000;
+        padding: 1em;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 6px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        border: none;
+    }
+
+    #submit:hover {
+        border: none;
+        background: #e60000;
+        box-shadow: 0px 0px 1px #777;
+    }
+
+    /*******************************
+    The innerRequestSuccessful is used to configure the message for sucessful requests
+*******************************/
+
+    .innerRequestSuccessful {
+        background-color: #009C00;
+        margin: auto;
+        width: 80%;
+        color: #ecf0f1;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    /*******************************
+    The failed_Info_Box is used to configure the message for unsucessful requests
+    ********************************/
+    .failed_Info_Box {
+        background-color: #FF7400;
+        margin: auto;
+        width: 80%;
+        color: #ecf0f1;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+</style>
+
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------->
+
+<img id="header_image" src="https://i.postimg.cc/jdgsjZKg/merry-christmas.jpg">
+<hr class="separator">
+<!---------------------------------------------------------------------------------->
+
+<section>
+    <h1>Welcome to the Fisher Family Light Show</h1>
+
+    <p1>
+        Thank you so very much for stopping by! It's our pleasure to have you enjoy the lights and videos this Christmas. Below you can add a song to the jukebox.
+    </p1>
+    <br>
+    <div id="show-hours">Show Hours: <br>Every day from 5:00-10:00 PM </div>
+</section>
+
+<!---------------------------------------------------------------------------------->
+<hr class="separator">
+
+<!-- This section is what shows what is currently playing Don't delete -->
+<section>
+    <h2 class="rf-titles">
+        Now Playing:
+    </h2>
+
+    <div class="playing-now">
+        {NOW_PLAYING}
+    </div>
+
+    <!-- This section will display a message if your show isn't playing a scheduled playlist-->
+
+
+    <div {after-hours-message}>
+        <div class="after-hours">
+            Our show hours are from 5:00 PM to 10:00 PM every day. During show hours, the song list will be located here. Check back after 5pm and request your favorites!
+        </div>
+    </div>
+
+    <div {jukebox-dynamic-container}>
+        <p class="rf-titles">Next Up:</p>
+        <div style="text-align: center; color: white; font-size: 20px;">
+            {NEXT_PLAYLIST}
+        </div>
+        <p class="rf-titles">Number of Selected Songs:</p>
+        <div style="text-align: center; color: white;font-size: 20px;">
+            {QUEUE_SIZE}
+        </div>
+
+    </div>
+</section>
+<br>
+<section>
+    <h2>Want to Control the Show?</h2>
+    <p1>
+        Miss the song you wanted to hear? Have a favorite? Simply find the song you are looking for in the list during showtimes and click on it to add it to the jukebox. <strong><span style="text-decoration: underline;">If asked to allow location services, please do so</span></strong> as we limit the area to within one mile to keep people from just spamming the show. Enjoy!
+    </p1>
+</section>
+
+<hr class="separator">
+
+<section>
+    <div class="body_text" id="instructional-text" {jukebox-dynamic-container}>
+        <h2>Pick a Song!</h2>
+        <p2>Select the song that you would like to play from the list below.</p2>
+
+    </div>
+
+    <div class="body_text" id="instructional-text" {playlist-voting-dynamic-container}>
+        <h2>Vote for a Song!</h2>
+        <p2>
+            Vote for a song from the list below!
+        </p2>
+        <br>
+        <p3>The song with the most votes will play when the current song is finished. You can only vote once per round. Voting will start again after the winning song starts to play.
+        </p3>
+    </div>
+    <br>
+    <div {playlist-voting-dynamic-container}>
+        <div class="rtable">
+            <div class="cell-vote-playlist" style="border: none; cursor: text">
+                Song List
+            </div>
+            <div class="cell-vote" style="border: none; cursor: text">
+                Votes
+            </div>
+        </div>
+        <div class="rtable">
+            {PLAYLISTS}
+        </div>
+    </div>
+
+    <div {playlist-standard-dynamic-container}>
+        <div class="rtable">
+            <div class="cell-std-playlist" style="border: none; cursor: text">
+                Song List
+            </div>
+            <div class="cell-std" style="border: none; cursor: text">
+                Votes
+            </div>
+        </div>
+        <div class="rtablestd" id="playlists_container">
+            {PLAYLISTS}
+        </div>
+
+    </div>
+    <!--
+<div {playlist-standard-dynamic-container}>
+    <div id="playlists_container">
+        {PLAYLISTS}
+    </div>
+</div>
+-->
+</section>
+
+<!--\/-\/-\/-\/--DO NOT DELETE--\/-\/-\/-\/-->
+<div id="requestSuccessful" style="display: none">
+    <div class="innerRequestSuccessful">
+        Successfully Added!
+    </div>
+</div>
+
+<div id="requestFailed" style="display: none">
+    <div class="failed_Info_Box">
+        ERROR <br /> An unexpected error has occured! Sorry for the inconvenience.
+    </div>
+</div>
+
+<div id="requestPlaying" style="display: none">
+    <div class="failed_Info_Box">
+        This Song has Already Been Requested.
+    </div>
+</div>
+
+<div id="queueFull" style="display: none">
+    <div class="failed_Info_Box">
+        QUEUE FULL<br />
+        Sorry, the queue is currently full. The maximum number of requests is {QUEUE_DEPTH}.
+    </div>
+</div>
+
+<div id="invalidLocation" style="display: none">
+    <div class="failed_Info_Box">
+        INVALID LOCATION <br />
+        You are not located where the show is or didn't allow your location to be identified!
+    </div>
+</div>
+
+<div id="alreadyVoted" style="display: none">
+    <div class="failed_Info_Box">
+        ALREADY VOTED <br />
+        You can only vote once per round, you will have to wait for the current song to finish before you can vote again.
+    </div>
+</div>
+<!--/\-/\-/\-/\--DO NOT DELETE--/\-/\-/\-/\-->
+
+<hr class="separator">
+
+<section>
+    <div class="body_text" id="footer_text">
+        <h3>About Our Show</h3>
+        This show is created entirely by Jeffrey, who is currently an Electrical Engineering student in his Senior year at Texas A&amp;M University. He enjoys putting together these eleborate light displays to push his technical limits, as well as make the holiday season of many a little more bright.
+    </div>
+    <a href="https://www.jeffreyspaceboy.com" class="button">Visit Jeffrey's Website</a>
+</section>
+<br>
+<section> Hosted by RemoteFalcon 2020 </section>
+
+<!--
+<div class="body_text" id="social_links">
+    <h3>FOLLOW US</h3>
+
+    <a style="display: inline-block;" href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/PROFILE" target="_blank"> <img style="border-radius: 3px; display: block;" src="https://s3-eu-west-1.amazonaws.com/ecomail-assets/editor/social-icos/roundedwhite/facebook.png" alt="" width="35" height="35" /> </a>
+    <a style="display: inline-block;" href="https://twitter.com/home?status=https://www.twitter.com/PROFILE" target="_blank"> <img style="border-radius: 3px; display: block;" src="https://s3-eu-west-1.amazonaws.com/ecomail-assets/editor/social-icos/roundedwhite/twitter.png" alt="" width="35" height="35" /> </a>
+    <a style="display: inline-block;" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=[[SHORT_PERMALINK]]&amp;title=&amp;summary=&amp;source=" target="_blank"> <img style="border-radius: 3px; display: block;" src="https://s3-eu-west-1.amazonaws.com/ecomail-assets/editor/social-icos/roundedwhite/linkedin.png" alt="" width="35" height="35" /> </a>
+    <a style="display: inline-block;" href="[[SHORT_PERMALINK]]" target="_blank"> <img style="border-radius: 3px; display: block;" src="https://s3-eu-west-1.amazonaws.com/ecomail-assets/editor/social-icos/roundedwhite/instagram.png" alt="" width="35" height="35" /> </a>
+</div>
+-->
+
+
+
+
+
+<!--2.0-->
+<!-- do not delete or move this comment -->
+<!--
+   This HTML template has been provided by Rick Harris and contains everything you should need 
+   to get started!
+   
+   Since this will be embedded in the page, there is no need to add any html or body tags. 
+   Simply add and/or modify elements you want and they will be added.
+   
+   The following are the variables used to populate your lists so DON'T MODIFY THESE!!:
+   {PLAYLISTS} - Displays the list of your sequences for the viewer to request.
+   {NOW_PLAYING} - Displays the currently playing sequence.
+   {NEXT_PLAYLIST} - Displays the next sequence in the queue.
+   {QUEUE_SIZE} - Displays the current number of songs in the queue when using Jukebox mode.
+   {QUEUE_DEPTH} - Displays the size that you have configured for your queue. This can be used in error messages or your instructions if you want.
+   {VOTES} - Displays the number of votes for each playlist when in voting mode.
+   
+   Feel free to modify this HTML page as much as you need. All I ask is that you follow this one simple rule...
+   Do NOT add ANY scripts or ANY reference to scripts. NONE! ZILCH! NADA!
+   Other than that, get creative with it!
+
+   This page is designed to make modifying the looks of your page somewhat straight forward. 
+   The <style> section is where you will changes the properties to change the appearance of your page.
+   You can move the sections as you need
+-->

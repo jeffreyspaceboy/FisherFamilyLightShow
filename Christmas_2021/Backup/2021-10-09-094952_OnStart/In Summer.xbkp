@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2021.30</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>/Users/jeffreyfisher/Documents/xLights/Christmas2020/In Summer.mp3</mediaFile>
+    <sequenceDuration>98.142</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#000080,C_BUTTON_Palette2=#0000FF,C_BUTTON_Palette3=#3535FF,C_BUTTON_Palette4=#007DFB,C_BUTTON_Palette5=#46A3FF,C_BUTTON_Palette6=#63C9FA,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#AAFFFF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF00FF,C_BUTTON_Palette2=#00FFFF,C_BUTTON_Palette3=#000000,C_BUTTON_Palette4=#FFFF00,C_BUTTON_Palette5=#0000FF,C_BUTTON_Palette6=#00FF00,C_BUTTON_Palette7=#FF0000,C_BUTTON_Palette8=#FFFFFF,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette8=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Boscoyo Singing Tree,E_CHOICE_Faces_TimingTrack=Vocals</Effect>
+    <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=bottom,E_CHOICE_Curtain_Effect=close,E_SLIDER_Curtain_Swag=3,E_TEXTCTRL_Curtain_Speed=1.0</Effect>
+    <Effect>E_CHOICE_Garlands_Direction=Down,E_SLIDER_Garlands_Spacing=14,E_SLIDER_Garlands_Type=0,E_TEXTCTRL_Garlands_Cycles=1</Effect>
+    <Effect>E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=1,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=up,E_SLIDER_Bars_BarCount=1,E_TEXTCTRL_Bars_Cycles=1.0</Effect>
+    <Effect>E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Right,E_CHOICE_Meteors_Type=Rainbow,E_SLIDER_Meteors_Count=10,E_SLIDER_Meteors_Length=25,E_SLIDER_Meteors_Speed=40,E_SLIDER_Meteors_Swirl_Intensity=0</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_Start=0</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=0</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="532" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="Vocals" visible="1" views="" active="0"/>
+    <Element collapsed="0" type="timing" name="Segmentation" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="model" name="Boscoyo Singing Tree-V2 4 Lip" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_High" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_Low" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Left" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Right" visible="1"/>
+    <Element collapsed="0" type="model" name="WalkWay" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_3" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_4" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_5" visible="1"/>
+    <Element collapsed="0" type="model" name="Columns" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof" visible="1"/>
+    <Element collapsed="0" type="model" name="Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="Garages" visible="1"/>
+    <Element collapsed="0" type="model" name="Vertical" visible="1"/>
+    <Element collapsed="0" type="model" name="Horizontal" visible="1"/>
+    <Element collapsed="0" type="model" name="Pixels" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_High_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_5_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_5_B" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_5_T" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_5_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_3_B" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_2_T" visible="1"/>
+    <Element collapsed="0" type="model" name="WalkWay_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Right_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Left_T" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_Low_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low_4" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low_3" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_Low_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_Low_3" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_Low_4" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Left_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Left_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Right_T" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Right_R" visible="1"/>
+    <Element collapsed="0" type="model" name="WalkWay_T" visible="1"/>
+    <Element collapsed="0" type="model" name="WalkWay_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_3" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_4" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_5" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_6" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_7" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_8" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low_5" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low_6" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_9" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_1_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_1_T" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_1_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_1_B" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_2_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_2_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_2_B" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_3_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_3_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_3_T" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_4_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_4_T" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_4_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_4_B" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_High_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_High_3" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_High_4" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_High_5" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_High_6" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_High_7" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_High_8" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="Vocals">
+      <EffectLayer>
+        <Effect label="Ahhhhh" startTime="0" endTime="3400"></Effect>
+        <Effect label="Bees will buzz, kids will blow dandelion fuzz" startTime="3400" endTime="7700"></Effect>
+        <Effect label="And I will be doing whatever snow does in summer" startTime="7700" endTime="13200"></Effect>
+        <Effect label="A drink in my hand, my snow up against the burning sand" startTime="14050" endTime="19050"></Effect>
+        <Effect label="Prob'ly getting gorgeously tanned in summer" startTime="19200" endTime="23300"></Effect>
+        <Effect label="I'll finally see a summer breeze" startTime="23300" endTime="25750"></Effect>
+        <Effect label="Blow away a winter storm" startTime="25750" endTime="27650"></Effect>
+        <Effect label="And find out what happens to solid water when it gets warm!" startTime="27650" endTime="33000"></Effect>
+        <Effect label="And I can't wait to see, what my buddies all think of me" startTime="34600" endTime="39000"></Effect>
+        <Effect label="Just imagine how much cooler I'll be in summer" startTime="39150" endTime="43500"></Effect>
+        <Effect label="Da da, da doo, ah bah bah bah bah bah boo" startTime="43500" endTime="47350"></Effect>
+        <Effect label="The hot and the cold are both so intense" startTime="48400" endTime="50450"></Effect>
+        <Effect label="Put' em together, it just makes sense!" startTime="50550" endTime="53050"></Effect>
+        <Effect label="R-r-r-ratdadat dad dada doo" startTime="53200" endTime="57250"></Effect>
+        <Effect label="Winter's a good time to stay in and cuddle" startTime="57250" endTime="59400"></Effect>
+        <Effect label="But put me in summer and I'll be a, happy snowman!" startTime="59400" endTime="64150"></Effect>
+        <Effect label="When life gets rough, I like to hold on to my dream" startTime="64150" endTime="68150"></Effect>
+        <Effect label="Of relaxing in the summer sun, just lettin' off steam" startTime="68150" endTime="73600"></Effect>
+        <Effect label="Oh the sky will be blue, and you guys'll be there too" startTime="74800" endTime="82100"></Effect>
+        <Effect label="When I finally do what frozen things do in summer!" startTime="82100" endTime="87750"></Effect>
+        <Effect label="I'm gonna' tell him —" startTime="87750" endTime="88400"></Effect>
+        <Effect label="Don't you dare!" startTime="88750" endTime="89800"></Effect>
+        <Effect label="In summer!" startTime="90850" endTime="96150"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="Ah" startTime="1100" endTime="3400"></Effect>
+        <Effect label="Bees" startTime="3400" endTime="4500"></Effect>
+        <Effect label="will" startTime="4500" endTime="4650"></Effect>
+        <Effect label="buzz" startTime="4650" endTime="5600"></Effect>
+        <Effect label="kids" startTime="5600" endTime="6000"></Effect>
+        <Effect label="will" startTime="6000" endTime="6050"></Effect>
+        <Effect label="blow" startTime="6050" endTime="6300"></Effect>
+        <Effect label="dandelion" startTime="6300" endTime="7350"></Effect>
+        <Effect label="fuzz" startTime="7350" endTime="7700"></Effect>
+        <Effect label="And" startTime="7700" endTime="8000"></Effect>
+        <Effect label="I" startTime="8000" endTime="8100"></Effect>
+        <Effect label="will" startTime="8100" endTime="8250"></Effect>
+        <Effect label="be" startTime="8250" endTime="8550"></Effect>
+        <Effect label="doing" startTime="8550" endTime="8900"></Effect>
+        <Effect label="whatever" startTime="8900" endTime="9350"></Effect>
+        <Effect label="snow" startTime="9350" endTime="9750"></Effect>
+        <Effect label="does" startTime="9750" endTime="10250"></Effect>
+        <Effect label="in" startTime="10250" endTime="10550"></Effect>
+        <Effect label="summer" startTime="10550" endTime="13200"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="AI" startTime="1100" endTime="3400"></Effect>
+        <Effect label="MBP" startTime="3400" endTime="3450"></Effect>
+        <Effect label="E" startTime="3450" endTime="4450"></Effect>
+        <Effect label="etc" startTime="4450" endTime="4500"></Effect>
+        <Effect label="WQ" startTime="4500" endTime="4550"></Effect>
+        <Effect label="AI" startTime="4550" endTime="4600"></Effect>
+        <Effect label="L" startTime="4600" endTime="4650"></Effect>
+        <Effect label="MBP" startTime="4650" endTime="4700"></Effect>
+        <Effect label="AI" startTime="4700" endTime="5550"></Effect>
+        <Effect label="etc" startTime="5550" endTime="5600"></Effect>
+        <Effect label="etc" startTime="5600" endTime="5650"></Effect>
+        <Effect label="AI" startTime="5650" endTime="5950"></Effect>
+        <Effect label="etc" startTime="5950" endTime="6000"></Effect>
+        <Effect label="AI" startTime="6000" endTime="6050"></Effect>
+        <Effect label="MBP" startTime="6050" endTime="6100"></Effect>
+        <Effect label="L" startTime="6100" endTime="6200"></Effect>
+        <Effect label="O" startTime="6200" endTime="6300"></Effect>
+        <Effect label="etc" startTime="6300" endTime="6350"></Effect>
+        <Effect label="AI" startTime="6350" endTime="6550"></Effect>
+        <Effect label="etc" startTime="6550" endTime="6600"></Effect>
+        <Effect label="AI" startTime="6600" endTime="6750"></Effect>
+        <Effect label="L" startTime="6750" endTime="6950"></Effect>
+        <Effect label="AI" startTime="6950" endTime="7100"></Effect>
+        <Effect label="AI" startTime="7100" endTime="7300"></Effect>
+        <Effect label="etc" startTime="7300" endTime="7350"></Effect>
+        <Effect label="FV" startTime="7350" endTime="7500"></Effect>
+        <Effect label="AI" startTime="7500" endTime="7650"></Effect>
+        <Effect label="etc" startTime="7650" endTime="7700"></Effect>
+        <Effect label="etc" startTime="10550" endTime="10750"></Effect>
+        <Effect label="AI" startTime="10750" endTime="11900"></Effect>
+        <Effect label="MBP" startTime="11900" endTime="11950"></Effect>
+        <Effect label="E" startTime="11950" endTime="13200"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="timing" name="Segmentation">
+      <EffectLayer>
+        <Effect label="Ah" selected="1" startTime="0" endTime="4250"></Effect>
+        <Effect label="Bees'll buzz, kids'll blow dandelion fuzz" startTime="4250" endTime="8500"></Effect>
+        <Effect label="And I'll be doing whatever snow does in summer" startTime="8500" endTime="12750"></Effect>
+        <Effect label="A drink in my hand, my snow up against the burning sand" startTime="12750" endTime="17000"></Effect>
+        <Effect label="Prob'ly getting gorgeously tanned in summer" startTime="17000" endTime="21250"></Effect>
+        <Effect label="I'll finally see a summer breeze" startTime="21250" endTime="25500"></Effect>
+        <Effect label="Blow away a winter storm" startTime="25500" endTime="29750"></Effect>
+        <Effect label="And find out what happens to solid water when it gets warm!" startTime="29750" endTime="34000"></Effect>
+        <Effect label="And I can't wait to see, what my buddies all think of me" startTime="34000" endTime="38250"></Effect>
+        <Effect label="Just imagine how much cooler I'll be in summer" startTime="38250" endTime="42500"></Effect>
+        <Effect label="Da da, da doo, ah bah bah bah bah bah boo" startTime="42500" endTime="46750"></Effect>
+        <Effect label="The hot and the cold are both so intense" startTime="46750" endTime="51000"></Effect>
+        <Effect label="Put' em together, it just makes sense!" startTime="51000" endTime="55250"></Effect>
+        <Effect label="R-r-r-ratdadat dad dada doo" startTime="55250" endTime="59500"></Effect>
+        <Effect label="Winter's a good time to stay in and cuddle" startTime="59500" endTime="63750"></Effect>
+        <Effect label="But put me in summer and I'll be a, happy snowman!" startTime="63750" endTime="68000"></Effect>
+        <Effect label="When life gets rough, I like to hold on to my dream" startTime="68000" endTime="72250"></Effect>
+        <Effect label="Of relaxing in the summer sun, just lettin' off steam" startTime="72250" endTime="76500"></Effect>
+        <Effect label="Oh the sky will be blue, and you guys'll be there too" startTime="76500" endTime="80750"></Effect>
+        <Effect label="When I finally do what frozen things do in summer!" startTime="80750" endTime="85000"></Effect>
+        <Effect label="I'm gonna' tell him —" startTime="85000" endTime="89250"></Effect>
+        <Effect label="Don't you dare!" startTime="89250" endTime="93500"></Effect>
+        <Effect label="In summer!" startTime="93500" endTime="97750"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Boscoyo Singing Tree-V2 4 Lip">
+      <EffectLayer>
+        <Effect ref="0" name="Faces" startTime="0" endTime="96200" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Column_High">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_Low">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Left">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Right">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WalkWay">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_5">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Columns">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Windows">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garages">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Vertical">
+      <EffectLayer>
+        <Effect ref="1" name="Curtain" startTime="1050" endTime="3050" palette="1"/>
+        <Effect ref="2" name="Garlands" id="1" startTime="8000" endTime="10200" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Horizontal">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pixels">
+      <EffectLayer>
+        <Effect ref="3" name="Bars" startTime="3600" endTime="4750" palette="3"/>
+        <Effect ref="4" name="Meteors" id="1" startTime="5300" endTime="8000" palette="4"/>
+        <Effect ref="5" name="On" id="2" startTime="10200" endTime="12550" palette="5"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="5" name="On" startTime="3200" endTime="3800" palette="4"/>
+        <Effect ref="6" name="On" id="1" startTime="4700" endTime="5300" palette="4"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Column_High_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_5_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_5_B">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_5_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_5_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_3_B">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_2_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WalkWay_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Right_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Left_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_Low_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low_4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low_3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_Low_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_Low_3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_Low_4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Left_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Left_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Right_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Right_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WalkWay_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WalkWay_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_5">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_6">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_7">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_8">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low_5">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low_6">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_9">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_1_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_1_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_1_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_1_B">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_2_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_2_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_2_B">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_3_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_3_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_3_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_4_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_4_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_4_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_4_B">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_High_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_High_3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_High_4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_High_5">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_High_6">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_High_7">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_High_8">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

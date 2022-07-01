@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2021.30</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>/Users/jeffreyfisher/Documents/xLights/Christmas2020/In Summer.mp3</mediaFile>
+    <sequenceDuration>98.142</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#000080,C_BUTTON_Palette2=#0000FF,C_BUTTON_Palette3=#3535FF,C_BUTTON_Palette4=#007DFB,C_BUTTON_Palette5=#46A3FF,C_BUTTON_Palette6=#63C9FA,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#AAFFFF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF00FF,C_BUTTON_Palette2=#00FFFF,C_BUTTON_Palette3=#000000,C_BUTTON_Palette4=#FFFF00,C_BUTTON_Palette5=#0000FF,C_BUTTON_Palette6=#00FF00,C_BUTTON_Palette7=#FF0000,C_BUTTON_Palette8=#FFFFFF,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette8=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_Curtain_Repeat=0,E_CHOICE_Curtain_Edge=bottom,E_CHOICE_Curtain_Effect=close,E_SLIDER_Curtain_Swag=3,E_TEXTCTRL_Curtain_Speed=1.0</Effect>
+    <Effect>E_CHOICE_Garlands_Direction=Down,E_SLIDER_Garlands_Spacing=14,E_SLIDER_Garlands_Type=0,E_TEXTCTRL_Garlands_Cycles=1</Effect>
+    <Effect>E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=1,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=up,E_SLIDER_Bars_BarCount=1,E_TEXTCTRL_Bars_Cycles=1.0</Effect>
+    <Effect>E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Right,E_CHOICE_Meteors_Type=Rainbow,E_SLIDER_Meteors_Count=10,E_SLIDER_Meteors_Length=25,E_SLIDER_Meteors_Speed=40,E_SLIDER_Meteors_Swirl_Intensity=0</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_Start=0</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=0</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="532" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="1"/>
+    <Element collapsed="0" type="model" name="Column_High" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_Low" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Left" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Right" visible="1"/>
+    <Element collapsed="0" type="model" name="WalkWay" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_3" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_4" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_5" visible="1"/>
+    <Element collapsed="0" type="model" name="Columns" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof" visible="1"/>
+    <Element collapsed="0" type="model" name="Windows" visible="1"/>
+    <Element collapsed="0" type="model" name="Garages" visible="1"/>
+    <Element collapsed="0" type="model" name="Vertical" visible="1"/>
+    <Element collapsed="0" type="model" name="Horizontal" visible="1"/>
+    <Element collapsed="0" type="model" name="Pixels" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_High_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_5_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_5_B" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_5_T" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_5_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_3_B" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_2_T" visible="1"/>
+    <Element collapsed="0" type="model" name="WalkWay_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Right_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Left_T" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_Low_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low_4" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low_3" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Boscoyo Singing Tree-V2 4 Lip" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_Low_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_Low_3" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_Low_4" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Left_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Left_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Right_T" visible="1"/>
+    <Element collapsed="0" type="model" name="Garage_Right_R" visible="1"/>
+    <Element collapsed="0" type="model" name="WalkWay_T" visible="1"/>
+    <Element collapsed="0" type="model" name="WalkWay_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_1" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_3" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_4" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_5" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_6" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_7" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_8" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low_5" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_Low_6" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof_High_9" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_1_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_1_T" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_1_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_1_B" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_2_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_2_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_2_B" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_3_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_3_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_3_T" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_4_L" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_4_T" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_4_R" visible="1"/>
+    <Element collapsed="0" type="model" name="Window_4_B" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_High_2" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_High_3" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_High_4" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_High_5" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_High_6" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_High_7" visible="1"/>
+    <Element collapsed="0" type="model" name="Column_High_8" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_High">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_Low">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Left">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Right">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WalkWay">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_5">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Columns">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Windows">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garages">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Vertical">
+      <EffectLayer>
+        <Effect ref="0" name="Curtain" startTime="1050" endTime="3050" palette="0"/>
+        <Effect ref="1" name="Garlands" id="1" startTime="8000" endTime="10200" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Horizontal">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pixels">
+      <EffectLayer>
+        <Effect ref="2" name="Bars" startTime="3600" endTime="4750" palette="2"/>
+        <Effect ref="3" name="Meteors" id="1" startTime="5300" endTime="8000" palette="3"/>
+        <Effect ref="4" name="On" id="2" startTime="10200" endTime="12550" palette="4"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="3200" endTime="3800" palette="3"/>
+        <Effect ref="5" name="On" id="1" startTime="4700" endTime="5300" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Column_High_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_5_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_5_B">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_5_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_5_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_3_B">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_2_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WalkWay_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Right_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Left_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_Low_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low_4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low_3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Boscoyo Singing Tree-V2 4 Lip">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_Low_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_Low_3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_Low_4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Left_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Left_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Right_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Garage_Right_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WalkWay_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="WalkWay_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_5">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_6">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_7">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_8">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low_5">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_Low_6">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof_High_9">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_1_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_1_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_1_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_1_B">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_2_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_2_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_2_B">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_3_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_3_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_3_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_4_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_4_T">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_4_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Window_4_B">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_High_2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_High_3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_High_4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_High_5">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_High_6">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_High_7">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Column_High_8">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
