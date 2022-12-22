@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2022.23</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>/Users/jeffreyfisher/Documents/xLights/FisherFamilyLightShow/Christmas_2022/Music/Final/2022_9_Waiting15Mins.mp3</mediaFile>
+    <sequenceDuration>907.458</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF0000,C_BUTTON_Palette2=#FF8000,C_BUTTON_Palette3=#FFFF00,C_BUTTON_Palette4=#00FF00,C_BUTTON_Palette5=#00FFFF,C_BUTTON_Palette6=#0000FF,C_BUTTON_Palette7=#8000FF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF00FF,C_BUTTON_Palette2=#FF8000,C_BUTTON_Palette3=#FFFF00,C_BUTTON_Palette4=#00FF00,C_BUTTON_Palette5=#00FFFF,C_BUTTON_Palette6=#0000FF,C_BUTTON_Palette7=#8000FF,C_BUTTON_Palette8=#FF0000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF0000,C_BUTTON_Palette2=#FF8000,C_BUTTON_Palette3=#FFFF00,C_BUTTON_Palette4=#00FF00,C_BUTTON_Palette5=#00FFFF,C_BUTTON_Palette6=#0000FF,C_BUTTON_Palette7=#8000FF,C_BUTTON_Palette8=#FB02FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect></Effect>
+    <Effect>T_TEXTCTRL_Fadein=4</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=0</Effect>
+    <Effect>T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>T_TEXTCTRL_Fadein=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=99.5 FM,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=minutes seconds,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=15:00,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=99.5 FM,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=99.5 FM,E_TEXTCTRL_Text_Speed=10</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font=minecraft 150 windows-1252,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=99.5 FM,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=minutes seconds,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=14:00,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=99.5 FM,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=minutes seconds,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=13:00,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font=minecraft 150 windows-1252,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=99.5 FM,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=99.5 FM,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=minutes seconds,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=12:00,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=minutes seconds,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=11:00,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=minutes seconds,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=10:03,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=minutes seconds,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=9:00,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=minutes seconds,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=8:00,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=minutes seconds,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=7:00,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=minutes seconds,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=6:00,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=minutes seconds,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=5:00,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=minutes seconds,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=4:00,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=minutes seconds,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=3:00,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=minutes seconds,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=2:00,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=99.5 FM,E_TEXTCTRL_Text_Speed=10</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=minutes seconds,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=1:00,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=seconds,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FONTPICKER_Text_Font=minecraft 150 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=10,E_TEXTCTRL_Text_Speed=10,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>E_CHECKBOX_Pictures_PixelOffsets=0,E_CHECKBOX_Pictures_Shimmer=0,E_CHECKBOX_Pictures_TransparentBlack=1,E_CHECKBOX_Pictures_WrapX=0,E_CHOICE_Pictures_Direction=peekaboo,E_CHOICE_Scaling=No Scaling,E_FILEPICKER_Pictures_Filename=/Users/jeffreyfisher/Documents/xLights/FisherFamilyLightShow/Christmas_2022/Photos/redArrow.png,E_SLIDER_PicturesXC=33,E_SLIDER_PicturesYC=-15,E_SLIDER_Pictures_EndScale=20,E_SLIDER_Pictures_StartScale=20,E_TEXTCTRL_Pictures_FrameRateAdj=3,E_TEXTCTRL_Pictures_Speed=3,E_TEXTCTRL_Pictures_TransparentBlack=300</Effect>
+    <Effect>E_CHECKBOX_Twinkle_ReRandom=0,E_CHECKBOX_Twinkle_Strobe=0,E_CHOICE_Twinkle_Style=New Render Method,E_SLIDER_Twinkle_Count=20,E_SLIDER_Twinkle_Steps=66,T_TEXTCTRL_Fadein=10,T_TEXTCTRL_Fadeout=10</Effect>
+    <Effect>E_CHECKBOX_Twinkle_ReRandom=0,E_CHECKBOX_Twinkle_Strobe=0,E_CHOICE_Twinkle_Style=New Render Method,E_SLIDER_Twinkle_Count=8,E_SLIDER_Twinkle_Steps=38,T_TEXTCTRL_Fadein=10,T_TEXTCTRL_Fadeout=10</Effect>
+    <Effect>E_CHECKBOX_Twinkle_ReRandom=0,E_CHECKBOX_Twinkle_Strobe=0,E_CHOICE_Twinkle_Style=New Render Method,E_SLIDER_Twinkle_Count=20,E_SLIDER_Twinkle_Steps=66,T_TEXTCTRL_Fadein=2,T_TEXTCTRL_Fadeout=10</Effect>
+    <Effect>T_TEXTCTRL_Fadeout=10</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_Start=0</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="3029681" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View" active="0"/>
+    <Element collapsed="0" type="model" name="Red_Button" visible="1"/>
+    <Element collapsed="0" type="model" name="Radio_Sign" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof" visible="1"/>
+    <Element collapsed="0" type="model" name="Wall" visible="1"/>
+    <Element collapsed="0" type="model" name="Columns" visible="1"/>
+    <Element collapsed="0" type="model" name="Wreath" visible="1"/>
+    <Element collapsed="0" type="model" name="AC_Lights" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree_Big_Right" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree_Big_Left_L" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree_Big_Left_R" visible="0"/>
+    <Element collapsed="0" type="model" name="Bush_M" visible="0"/>
+    <Element collapsed="0" type="model" name="Entrance" visible="0"/>
+    <Element collapsed="0" type="model" name="Bush_R_Center" visible="0"/>
+    <Element collapsed="0" type="model" name="Bush_R_Edge" visible="0"/>
+    <Element collapsed="0" type="model" name="Santa" visible="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Red_Button">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="895050" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Radio_Sign">
+      <EffectLayer/>
+      <SubModelEffectLayer layer="1" name="Border">
+        <Effect ref="1" name="On" startTime="0" endTime="9800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="1" startTime="9800" endTime="419900" palette="1"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="419900" endTime="886650" palette="2"/>
+        <Effect ref="2" name="On" id="3" startTime="886650" endTime="894950" palette="0"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="TUNE TO">
+        <Effect ref="3" name="On" startTime="0" endTime="2000" palette="0"/>
+        <Effect ref="4" name="On" id="1" startTime="12200" endTime="14000" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="14000" endTime="59050" palette="0"/>
+        <Effect ref="3" name="On" id="3" startTime="59050" endTime="61100" palette="0"/>
+        <Effect ref="4" name="On" id="4" startTime="69250" endTime="71000" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="71000" endTime="118850" palette="0"/>
+        <Effect ref="3" name="On" id="6" startTime="118850" endTime="120900" palette="0"/>
+        <Effect ref="4" name="On" id="7" startTime="129050" endTime="130900" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="130900" endTime="178800" palette="0"/>
+        <Effect ref="3" name="On" id="9" startTime="178800" endTime="180850" palette="0"/>
+        <Effect ref="4" name="On" id="10" startTime="189000" endTime="190800" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="190800" endTime="239450" palette="0"/>
+        <Effect ref="3" name="On" id="12" startTime="239450" endTime="241500" palette="0"/>
+        <Effect ref="4" name="On" id="13" startTime="249600" endTime="251450" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="251450" endTime="301750" palette="0"/>
+        <Effect ref="3" name="On" id="15" startTime="301750" endTime="303800" palette="0"/>
+        <Effect ref="4" name="On" id="16" startTime="311950" endTime="313750" palette="0"/>
+        <Effect ref="0" name="On" id="17" startTime="313750" endTime="359100" palette="0"/>
+        <Effect ref="3" name="On" id="18" startTime="359100" endTime="361150" palette="0"/>
+        <Effect ref="4" name="On" id="19" startTime="369300" endTime="371100" palette="0"/>
+        <Effect ref="0" name="On" id="20" startTime="371100" endTime="419400" palette="0"/>
+        <Effect ref="3" name="On" id="21" startTime="419400" endTime="421450" palette="0"/>
+        <Effect ref="4" name="On" id="22" startTime="429600" endTime="431400" palette="0"/>
+        <Effect ref="0" name="On" id="23" startTime="431400" endTime="479150" palette="0"/>
+        <Effect ref="3" name="On" id="24" startTime="479150" endTime="481200" palette="0"/>
+        <Effect ref="4" name="On" id="25" startTime="489350" endTime="491150" palette="0"/>
+        <Effect ref="0" name="On" id="26" startTime="491150" endTime="538950" palette="0"/>
+        <Effect ref="3" name="On" id="27" startTime="538950" endTime="540950" palette="0"/>
+        <Effect ref="4" name="On" id="28" startTime="549150" endTime="550950" palette="0"/>
+        <Effect ref="0" name="On" id="29" startTime="550950" endTime="601950" palette="0"/>
+        <Effect ref="3" name="On" id="30" startTime="601950" endTime="604000" palette="0"/>
+        <Effect ref="4" name="On" id="31" startTime="612100" endTime="613950" palette="0"/>
+        <Effect ref="0" name="On" id="32" startTime="613950" endTime="659450" palette="0"/>
+        <Effect ref="3" name="On" id="33" startTime="659450" endTime="661500" palette="0"/>
+        <Effect ref="4" name="On" id="34" startTime="669600" endTime="671400" palette="0"/>
+        <Effect ref="0" name="On" id="35" startTime="671400" endTime="719750" palette="0"/>
+        <Effect ref="3" name="On" id="36" startTime="719750" endTime="721800" palette="0"/>
+        <Effect ref="4" name="On" id="37" startTime="729900" endTime="731700" palette="0"/>
+        <Effect ref="0" name="On" id="38" startTime="731700" endTime="779000" palette="0"/>
+        <Effect ref="3" name="On" id="39" startTime="779000" endTime="781050" palette="0"/>
+        <Effect ref="4" name="On" id="40" startTime="789250" endTime="791000" palette="0"/>
+        <Effect ref="0" name="On" id="41" startTime="791000" endTime="838950" palette="0"/>
+        <Effect ref="3" name="On" id="42" startTime="838950" endTime="840950" palette="0"/>
+        <Effect ref="4" name="On" id="43" startTime="849150" endTime="850950" palette="0"/>
+        <Effect ref="0" name="On" id="44" startTime="850950" endTime="886500" palette="0"/>
+        <Effect ref="3" name="On" id="45" startTime="886500" endTime="895000" palette="0"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Matrix">
+        <Effect ref="5" name="Text" startTime="0" endTime="2000" palette="0"/>
+        <Effect ref="6" name="Text" id="1" startTime="2000" endTime="9050" palette="0"/>
+        <Effect ref="7" name="Text" id="2" startTime="12200" endTime="14000" palette="0"/>
+        <Effect ref="8" name="Text" id="3" startTime="14000" endTime="59050" palette="0"/>
+        <Effect ref="9" name="Text" id="4" startTime="59050" endTime="61100" palette="0"/>
+        <Effect ref="10" name="Text" id="5" startTime="61100" endTime="66050" palette="0"/>
+        <Effect ref="11" name="Text" id="6" startTime="69250" endTime="71000" palette="0"/>
+        <Effect ref="8" name="Text" id="7" startTime="71000" endTime="118850" palette="0"/>
+        <Effect ref="5" name="Text" id="8" startTime="118850" endTime="120900" palette="0"/>
+        <Effect ref="12" name="Text" id="9" startTime="120900" endTime="125950" palette="0"/>
+        <Effect ref="13" name="Text" id="10" startTime="129050" endTime="130700" palette="0"/>
+        <Effect ref="8" name="Text" id="11" startTime="130700" endTime="179150" palette="0"/>
+        <Effect ref="14" name="Text" id="12" startTime="179150" endTime="180850" palette="0"/>
+        <Effect ref="15" name="Text" id="13" startTime="180850" endTime="185850" palette="0"/>
+        <Effect ref="13" name="Text" id="14" startTime="189000" endTime="190550" palette="0"/>
+        <Effect ref="8" name="Text" id="15" startTime="190550" endTime="239900" palette="0"/>
+        <Effect ref="9" name="Text" id="16" startTime="239900" endTime="241500" palette="0"/>
+        <Effect ref="16" name="Text" id="17" startTime="241500" endTime="246500" palette="0"/>
+        <Effect ref="13" name="Text" id="18" startTime="249600" endTime="251350" palette="0"/>
+        <Effect ref="8" name="Text" id="19" startTime="251350" endTime="301950" palette="0"/>
+        <Effect ref="9" name="Text" id="20" startTime="301950" endTime="303800" palette="0"/>
+        <Effect ref="17" name="Text" id="21" startTime="303800" endTime="308800" palette="0"/>
+        <Effect ref="13" name="Text" id="22" startTime="311950" endTime="313750" palette="0"/>
+        <Effect ref="8" name="Text" id="23" startTime="313750" endTime="359100" palette="0"/>
+        <Effect ref="9" name="Text" id="24" startTime="359100" endTime="361150" palette="0"/>
+        <Effect ref="18" name="Text" id="25" startTime="361150" endTime="366150" palette="0"/>
+        <Effect ref="13" name="Text" id="26" startTime="369300" endTime="371100" palette="0"/>
+        <Effect ref="8" name="Text" id="27" startTime="371100" endTime="419400" palette="0"/>
+        <Effect ref="9" name="Text" id="28" startTime="419400" endTime="421450" palette="0"/>
+        <Effect ref="19" name="Text" id="29" startTime="421450" endTime="426450" palette="0"/>
+        <Effect ref="13" name="Text" id="30" startTime="429600" endTime="431400" palette="0"/>
+        <Effect ref="8" name="Text" id="31" startTime="431400" endTime="479150" palette="0"/>
+        <Effect ref="9" name="Text" id="32" startTime="479150" endTime="481200" palette="0"/>
+        <Effect ref="20" name="Text" id="33" startTime="481200" endTime="486200" palette="0"/>
+        <Effect ref="13" name="Text" id="34" startTime="489350" endTime="491150" palette="0"/>
+        <Effect ref="8" name="Text" id="35" startTime="491150" endTime="538950" palette="0"/>
+        <Effect ref="9" name="Text" id="36" startTime="538950" endTime="540950" palette="0"/>
+        <Effect ref="21" name="Text" id="37" startTime="540950" endTime="546000" palette="0"/>
+        <Effect ref="13" name="Text" id="38" startTime="549150" endTime="550950" palette="0"/>
+        <Effect ref="8" name="Text" id="39" startTime="550950" endTime="601950" palette="0"/>
+        <Effect ref="9" name="Text" id="40" startTime="601950" endTime="604000" palette="0"/>
+        <Effect ref="22" name="Text" id="41" startTime="604000" endTime="609000" palette="0"/>
+        <Effect ref="13" name="Text" id="42" startTime="612100" endTime="613650" palette="0"/>
+        <Effect ref="8" name="Text" id="43" startTime="613650" endTime="659650" palette="0"/>
+        <Effect ref="9" name="Text" id="44" startTime="659650" endTime="661500" palette="0"/>
+        <Effect ref="23" name="Text" id="45" startTime="661500" endTime="666450" palette="0"/>
+        <Effect ref="13" name="Text" id="46" startTime="669600" endTime="671200" palette="0"/>
+        <Effect ref="8" name="Text" id="47" startTime="671200" endTime="719850" palette="0"/>
+        <Effect ref="14" name="Text" id="48" startTime="719850" endTime="721800" palette="0"/>
+        <Effect ref="24" name="Text" id="49" startTime="721800" endTime="726750" palette="0"/>
+        <Effect ref="13" name="Text" id="50" startTime="729900" endTime="731200" palette="0"/>
+        <Effect ref="8" name="Text" id="51" startTime="731200" endTime="779200" palette="0"/>
+        <Effect ref="9" name="Text" id="52" startTime="779200" endTime="781050" palette="0"/>
+        <Effect ref="25" name="Text" id="53" startTime="781050" endTime="786050" palette="0"/>
+        <Effect ref="13" name="Text" id="54" startTime="789250" endTime="790900" palette="0"/>
+        <Effect ref="26" name="Text" id="55" startTime="790900" endTime="839100" palette="0"/>
+        <Effect ref="9" name="Text" id="56" startTime="839100" endTime="840950" palette="0"/>
+        <Effect ref="27" name="Text" id="57" startTime="840950" endTime="846000" palette="0"/>
+        <Effect ref="13" name="Text" id="58" startTime="849150" endTime="850850" palette="0"/>
+        <Effect ref="26" name="Text" id="59" startTime="850850" endTime="886600" palette="0"/>
+        <Effect ref="9" name="Text" id="60" startTime="886600" endTime="895050" palette="0"/>
+        <Effect ref="28" name="Text" selected="1" id="61" startTime="896000" endTime="906800" palette="0"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer layer="2" name="Matrix">
+        <Effect ref="29" name="Pictures" startTime="9100" endTime="12150" palette="3"/>
+        <Effect ref="29" name="Pictures" id="1" startTime="66150" endTime="69150" palette="3"/>
+        <Effect ref="29" name="Pictures" id="2" startTime="125950" endTime="129050" palette="3"/>
+        <Effect ref="29" name="Pictures" id="3" startTime="185850" endTime="189000" palette="3"/>
+        <Effect ref="29" name="Pictures" id="4" startTime="246500" endTime="249600" palette="3"/>
+        <Effect ref="29" name="Pictures" id="5" startTime="308850" endTime="311900" palette="3"/>
+        <Effect ref="29" name="Pictures" id="6" startTime="366200" endTime="369250" palette="3"/>
+        <Effect ref="29" name="Pictures" id="7" startTime="426500" endTime="429550" palette="3"/>
+        <Effect ref="29" name="Pictures" id="8" startTime="486250" endTime="489300" palette="3"/>
+        <Effect ref="29" name="Pictures" id="9" startTime="546050" endTime="549100" palette="3"/>
+        <Effect ref="29" name="Pictures" id="10" startTime="609000" endTime="612100" palette="3"/>
+        <Effect ref="29" name="Pictures" id="11" startTime="666500" endTime="669550" palette="3"/>
+        <Effect ref="29" name="Pictures" id="12" startTime="726800" endTime="729850" palette="3"/>
+        <Effect ref="29" name="Pictures" id="13" startTime="786150" endTime="789150" palette="3"/>
+        <Effect ref="29" name="Pictures" id="14" startTime="846050" endTime="849100" palette="3"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="Roof">
+      <EffectLayer>
+        <Effect ref="30" name="Twinkle" startTime="0" endTime="894950" palette="4"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="9900" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="1" startTime="9900" endTime="420000" palette="5"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="420000" endTime="886700" palette="2"/>
+        <Effect ref="2" name="On" id="3" startTime="886700" endTime="895050" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Wall">
+      <EffectLayer>
+        <Effect ref="30" name="Twinkle" startTime="0" endTime="895000" palette="4"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="9900" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="1" startTime="9900" endTime="420000" palette="1"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="420000" endTime="886600" palette="2"/>
+        <Effect ref="2" name="On" id="3" startTime="886600" endTime="894950" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Columns">
+      <EffectLayer>
+        <Effect ref="31" name="Twinkle" startTime="0" endTime="894950" palette="4"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Wreath">
+      <EffectLayer/>
+      <SubModelEffectLayer name="Wreath Rings">
+        <Effect ref="32" name="Twinkle" startTime="0" endTime="895100" palette="4"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer layer="1" name="Wreath Rings">
+        <Effect ref="33" name="On" startTime="0" endTime="895100" palette="6"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Bow">
+        <Effect ref="34" name="On" startTime="0" endTime="10800" palette="0"/>
+        <Effect ref="33" name="On" id="1" startTime="10800" endTime="894900" palette="0"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Outer">
+        <Effect ref="34" name="On" startTime="0" endTime="14000" palette="6"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Middle">
+        <Effect ref="34" name="On" startTime="2000" endTime="14000" palette="6"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Inner">
+        <Effect ref="34" name="On" startTime="4050" endTime="14000" palette="6"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="AC_Lights">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="895450" palette="4"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree_Big_Right">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree_Big_Left_L">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree_Big_Left_R">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush_M">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Entrance">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush_R_Center">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bush_R_Edge">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Santa">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
